@@ -2,6 +2,7 @@
 
 from __future__ import unicode_literals
 import time
+import re
 
 # !! This is the configuration of Nikola. !! #
 # !!  You should edit it to your liking.  !! #
@@ -1122,3 +1123,5 @@ GLOBAL_CONTEXT = {}
 # GLOBAL_CONTEXT as parameter when the template is about to be
 # rendered
 GLOBAL_CONTEXT_FILLER = []
+
+TEASER_REGEXP = re.compile('<!--s*(more|TEASER_END)(:(.+))?s*-->', re.IGNORECASE)
