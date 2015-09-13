@@ -512,7 +512,24 @@ HIDDEN_AUTHORS = ['Guest']
 # relative URL.
 #
 # If you don't need any of these, just set to []
-REDIRECTIONS = []
+REDIRECTIONS = [
+    ("2012/10/python-likes-dlls/index.html", "/posts/python-likes-dlls/"),
+    ("2012/11/dont-use-old-opengl/index.html", "/posts/dont-use-old-opengl/"),
+    ("2012/12/special-member-lookup-in-python/index.html", "/posts/special-member-lookup-in-python/"),
+    ("2013/01/slicing-traps-in-python-2/index.html", "/posts/slicing-traps-in-python-2/"),
+    ("2013/01/the-python-gets-gallery/index.html", "/posts/the-python-gets-gallery/"),
+    ("2013/01/closures-the-cute-pets-that-bite/index.html", "/posts/closures-the-cute-pets-that-bite/"),
+    ("2013/01/5-ways-to-use-python-with-native-code/index.html", "/posts/5-ways-to-use-python-with-native-code/"),
+    ("2013/02/git-adventures-loose-object-is-corrupted/index.html", "/posts/git-adventures-loose-object-is-corrupted/"),
+    ("2013/02/say-hello-to-unicode/index.html", "/posts/say-hello-to-unicode/"),
+    ("2013/03/introducing-glory/index.html", "/posts/introducing-glory/"),
+    ("2013/04/interfaces-dissected/index.html", "/posts/interfaces-dissected/"),
+    ("2013/12/commentary-on-javascript-the-good-parts/index.html", "/posts/commentary-on-javascript-the-good-parts/"),
+    ("2014/01/bug-vs-feature/index.html", "/posts/bug-vs-feature/"),
+    ("2014/10/risk-of-rain-a-story-of-a-bug/index.html", "/posts/risk-of-rain-a-story-of-a-bug/"),
+    ("2015/05/on-gamepads-in-pc-gaming-xinput-and-compatibility/index.html", "/posts/on-gamepads-in-pc-gaming-xinput-and-compatibility/"),
+    ("2015/09/games-are-generators-of-stories/index.html", "/posts/games-are-generators-of-stories/"),
+]
 
 # Presets of commands to execute to deploy. Can be anything, for
 # example, you may use rsync:
@@ -934,10 +951,10 @@ MARKDOWN_EXTENSIONS = ['fenced_code', 'codehilite', 'extra']
 
 # Show link to source for the posts?
 # Formerly known as HIDE_SOURCELINK (inverse)
-# SHOW_SOURCELINK = True
+SHOW_SOURCELINK = False
 # Copy the source files for your pages?
 # Setting it to False implies SHOW_SOURCELINK = False
-# COPY_SOURCES = True
+COPY_SOURCES = False
 
 # Modify the number of Post per Index Page
 # Defaults to 10
@@ -977,20 +994,20 @@ MARKDOWN_EXTENSIONS = ['fenced_code', 'codehilite', 'extra']
 # This search form works for any site and looks good in the "site" theme where
 # it appears on the navigation bar:
 #
-# SEARCH_FORM = """
-# <!-- DuckDuckGo custom search -->
-# <form method="get" id="search" action="//duckduckgo.com/"
-#  class="navbar-form pull-left">
-# <input type="hidden" name="sites" value="%s">
-# <input type="hidden" name="k8" value="#444444">
-# <input type="hidden" name="k9" value="#D51920">
-# <input type="hidden" name="kt" value="h">
-# <input type="text" name="q" maxlength="255"
-#  placeholder="Search&hellip;" class="span2" style="margin-top: 4px;">
-# <input type="submit" value="DuckDuckGo Search" style="visibility: hidden;">
-# </form>
-# <!-- End of custom search -->
-# """ % SITE_URL
+SEARCH_FORM = """
+<!-- DuckDuckGo custom search -->
+<form method="get" id="search" action="//duckduckgo.com/"
+ class="navbar-form pull-left">
+<input type="hidden" name="sites" value="%s">
+<input type="hidden" name="k8" value="#444444">
+<input type="hidden" name="k9" value="#D51920">
+<input type="hidden" name="kt" value="h">
+<input type="text" name="q" maxlength="255"
+ placeholder="Search&hellip;" class="span2" style="margin-top: 4px;">
+<input type="submit" value="DuckDuckGo Search" style="visibility: hidden;">
+</form>
+<!-- End of custom search -->
+""" % SITE_URL
 #
 # If you prefer a Google search form, here's an example that should just work:
 # SEARCH_FORM = """
