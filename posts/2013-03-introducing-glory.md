@@ -11,7 +11,7 @@
 
 Glory is the code name of my prototype IDE for developing OpenGL-powered graphical effects. After half a year of work, it has entered a functional alpha stage (and awarded me the&nbsp;MSc.)
 
-<a href="http://kos.gd/wp-content/uploads/2013/03/screen1.png"><img src="http://kos.gd/wp-content/uploads/2013/03/screen1-1024x604.png" alt="screen1" width="980" height="578" class="alignnone size-large wp-image-100" /></a>
+<a href="/images/screen1.png"><img src="/images/screen1.png" alt="screen1" width="980" /></a>
 
 <!--more-->
 
