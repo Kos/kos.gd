@@ -1,0 +1,13 @@
+body {
+  background: url('../images/metroid-robin-wouters-2.jpg');
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+}
+.container-fluid {
+  max-width: 900px;
+}
+.body-content {
+  background: white;
+  padding: 1em 3em;
+}

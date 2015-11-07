@@ -14,7 +14,7 @@ ${template_hooks['extra_head']()}
 <!-- Menubar -->
 
 <nav class="navbar navbar-inverse navbar-static-top">
-    <div class="container"><!-- This keeps the margins nice -->
+    <div class="container-fluid"><!-- This keeps the margins nice -->
         <div class="navbar-header">
             <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-navbar" aria-controls="bs-navbar" aria-expanded="false">
             <span class="sr-only">Toggle navigation</span>
@@ -58,7 +58,7 @@ ${template_hooks['extra_head']()}
 
 <!-- End of Menubar -->
 
-<div class="container" id="content" role="main">
+<div class="container-fluid" id="content" role="main">
     <div class="body-content">
         <!--Body content-->
         <div class="row">
@@ -69,6 +69,7 @@ ${template_hooks['extra_head']()}
 
         <footer id="footer">
             ${content_footer}
+            Background art: <a href="http://fav.me/d8ep8nu">Metroid</a> by <a href="http://www.robinwouters.com/">Robin Wouters</a>.
             ${template_hooks['page_footer']()}
         </footer>
     </div>

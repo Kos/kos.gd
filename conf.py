@@ -791,10 +791,9 @@ LICENSE = ""
 # (translatable)
 CONTENT_FOOTER = (
     'Contents &copy; {date} '
-    '<a href="mailto:{email}">{author}</a>'
-    ' - '
+    '<a href="mailto:{email}">{author}</a>. '
     'Powered by '
-    '<a href="https://getnikola.com" rel="nofollow">Nikola</a> '
+    '<a href="https://getnikola.com">Nikola</a>. '
     '{license}')
 
 # Things that will be passed to CONTENT_FOOTER.format().  This is done
