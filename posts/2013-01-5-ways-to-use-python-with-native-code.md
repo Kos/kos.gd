@@ -2,8 +2,8 @@
 .. title: 5 ways to use Python with native code
 .. slug: 5-ways-to-use-python-with-native-code
 .. date: 2013-01-29 21:07:38 UTC
-.. tags:
-.. category:
+.. tags: python, polyglot
+.. category: dev
 .. link:
 .. description:
 .. type: text

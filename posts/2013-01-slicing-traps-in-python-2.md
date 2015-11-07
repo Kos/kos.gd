@@ -2,8 +2,8 @@
 .. title: Slicing traps in Python 2
 .. slug: slicing-traps-in-python-2
 .. date: 2013-01-06 13:40:15 UTC
-.. tags:
-.. category:
+.. tags: python
+.. category: dev
 .. link:
 .. description:
 .. type: text
@@ -28,7 +28,7 @@ Before explaining, let me first introduce a distinction:
 
 The traps are as follows:
 
-1.	
+1.
 	Simple slicings are interpreted differently with new-style and old-style classes. Differences appear with omitted indices and negative indices. Here are examples:
 
 	- `a[:]`   new-style is `Slice(None, None, None)`, old-style is `Slice(0, sys.maxint, None)`,
@@ -40,7 +40,7 @@ The traps are as follows:
 
 	**Luckily, there seems to be no difference with how the `indices()` functions works on these slices**, so as long as you use it (which you probably should be doing anyway), you're green.
 
-2.	
+2.
 	There's an obsolete method `__getslice__` (together with `__setslice__` and `__delslice__`) that was introduced before slice objects. If defined, it will be preferred over `__getitem__` for simple slicing (with both new-style and old-style classes!). It always takes 2 arguments: start index and end index. It interprets omitted and negated indices using old-style interpretation.
 
 	Examples (assuming `type(a).__getslice__` exists):

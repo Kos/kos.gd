@@ -2,8 +2,8 @@
 .. title: Python likes DLLs: Starting out with OpenGL and GLFW
 .. slug: python-likes-dlls
 .. date: 2012-10-11 01:21:45 UTC
-.. tags:
-.. category:
+.. tags: python, opengl, polyglot
+.. category: dev
 .. link:
 .. description:
 .. type: text

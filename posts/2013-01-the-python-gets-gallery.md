@@ -2,14 +2,14 @@
 .. title: The Python Gets Gallery
 .. slug: the-python-gets-gallery
 .. date: 2013-01-08 20:34:01 UTC
-.. tags:
-.. category:
+.. tags: python
+.. category: dev
 .. link:
 .. description:
 .. type: text
 -->
 
-Behaviour of Python objects can be customised in tons of ways using special functions. This article describes some of them, all confusingly starting with `__get` and all having drastically different purposes. 
+Behaviour of Python objects can be customised in tons of ways using special functions. This article describes some of them, all confusingly starting with `__get` and all having drastically different purposes.
 
 <!--more-->
 
@@ -21,7 +21,7 @@ Counterparts: `__setitem__` and `__delitem__`, respectively for assigning to and
 
 Note that (unlike function calls, like C++ but unlike C#) indexing is always done with one argument. If the expression inside `[]` contains commas, they denote a tuple, not separate formal arguments.
 
-In indexing, you can use some special syntax: 
+In indexing, you can use some special syntax:
 
 - `x:y:z` is expanded into `slice` objects,
 - `...` is expanded into the `Ellipsis` object.

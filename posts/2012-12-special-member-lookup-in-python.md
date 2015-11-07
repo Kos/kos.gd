@@ -2,8 +2,8 @@
 .. title: Special member lookup in Python
 .. slug: special-member-lookup-in-python
 .. date: 2012-12-22 22:07:23 UTC
-.. tags:
-.. category:
+.. tags: python
+.. category: dev
 .. link:
 .. description:
 .. type: text
@@ -150,7 +150,7 @@ For the curious: Does the presence of __getattribute__ change anything in how sp
       File "<stdin>", line 1, in <module>
     TypeError: object of type 'NewWithGetattribute' has no len()
 
-# Reference # 
+# Reference #
 
 For more detailed information, as well as some rationale behind this change, I recommend the official docs.
 

@@ -3,7 +3,7 @@
 .. slug: interfaces-dissected
 .. date: 2013-04-28 19:54:46 UTC
 .. tags:
-.. category:
+.. category: dev
 .. link:
 .. description:
 .. type: text

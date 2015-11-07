@@ -2,8 +2,8 @@
 .. title: Git adventures: Loose object is corrupted
 .. slug: git-adventures-loose-object-is-corrupted
 .. date: 2013-02-01 11:55:20 UTC
-.. tags:
-.. category:
+.. tags: git
+.. category: dev
 .. link:
 .. description:
 .. type: text
@@ -38,9 +38,9 @@ Oh, so it's a commit! That makes sense. I plugged in a pendrive with a backup (w
 	commit 65d626bb82c8996f8fc5f659f7c207fee1d74948
 	Author: Tomasz Wesolowski <kosashi@gmail.com>
 	Date:   Sat Jan 12 13:17:12 2013 +0100
-	
+
 	    Editor improvements
-	
+
 	(the diff followed)
 
 My first idea was to add the broken repository as a remote, fetch new commits from it and continue the work from there. This had failed initially (before removing the corrupted object):

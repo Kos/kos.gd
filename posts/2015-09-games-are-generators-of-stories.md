@@ -3,7 +3,7 @@
 .. slug: games-are-generators-of-stories
 .. date: 2015-09-06 21:36:43 UTC
 .. tags:
-.. category:
+.. category: gaming
 .. link:
 .. description:
 .. type: text
@@ -31,7 +31,7 @@ I wouldn't go as far as to diss all the AAA games and their trademark cinematic 
 
 I didn't play that many story-oriented games, but I do remember having a great time with Morrowind, and many years later, Fallout 3. Open-world games always struck me as impressive, but I display a tendency to drift away from the main plot and just wander around, exploring and doing side quests. Again, this kind of game doesn't tend to create a new story as I'm playing it - rather, I'm just picking up random fragments of stories that the original writers had placed here and there. One could say I would assemble my own story from existing bits and pieces lying around. This isn't exactly writing my own story, but provies good enough to keep me immersed.
 
-"Metroidvania" games (my pet genre) have a similar effect. Both the gameplay and the storyline are quite linear: go to place X, defeat boss, get skill Y, then go to Z... However, as I'm progressing, the way forward is not obvious - I need to work it out myself, explore a semi-open world (that tends to become more and more open further on) and often backtrack to places already visited. On top of that, the level design rewards leaving the obvious route and exploring. It all sums up to a gaming experience where I'm engaged and I feel I'm writing my own story, even while I'm actually reenacting the major route. 
+"Metroidvania" games (my pet genre) have a similar effect. Both the gameplay and the storyline are quite linear: go to place X, defeat boss, get skill Y, then go to Z... However, as I'm progressing, the way forward is not obvious - I need to work it out myself, explore a semi-open world (that tends to become more and more open further on) and often backtrack to places already visited. On top of that, the level design rewards leaving the obvious route and exploring. It all sums up to a gaming experience where I'm engaged and I feel I'm writing my own story, even while I'm actually reenacting the major route.
 
 ## Competitive games
 

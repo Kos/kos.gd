@@ -3,7 +3,7 @@
 .. slug: bug-vs-feature
 .. date: 2014-01-29 12:02:38 UTC
 .. tags:
-.. category:
+.. category: dev
 .. link:
 .. description:
 .. type: text

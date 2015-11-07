@@ -2,8 +2,8 @@
 .. title: On gamepads in PC gaming, XInput and compatibility
 .. slug: on-gamepads-in-pc-gaming-xinput-and-compatibility
 .. date: 2015-05-24 20:13:34 UTC
-.. tags:
-.. category:
+.. tags: gamedev
+.. category: dev
 .. link:
 .. description:
 .. type: text
@@ -23,7 +23,7 @@ For ages, PC games supported gamepads via DirectInput, a generic interface that 
 
 Microsoft saw the problem and made an interesting move: why not enrich DirectX with another interface? XInput was born, with a very simple goal in mind: support Xbox 360 gamepads and that's it. This move has interesting consequences: now a game developer exactly knows how an XInput device looks like and gains much more control over how the game is experienced: he can bind the actions to "Left shoulder" rather than an anonymous "button 6". Nice! Moreover, an Xbox 360 pad can work with a PC without any problems and a game can offer consistent experience on PC and Xbox ("press Y" instead of "Press button 3").
 
-Unfortunately, twice the standard = twice the trouble. Let me just start with the fact that I needed to buy a new pad for PC just because Darksiders had no idea how to work with a DirectInput gamepad. Every PC game developer, from now on, has to answer the question: Do I support DirectInput devices? Xinput devices? Both? XInput is tempting because you know the layout upfront and don't have the implement e.g. custom key bindings, it's also easy to suggest actions to the player, but still you cut some audience off. 
+Unfortunately, twice the standard = twice the trouble. Let me just start with the fact that I needed to buy a new pad for PC just because Darksiders had no idea how to work with a DirectInput gamepad. Every PC game developer, from now on, has to answer the question: Do I support DirectInput devices? Xinput devices? Both? XInput is tempting because you know the layout upfront and don't have the implement e.g. custom key bindings, it's also easy to suggest actions to the player, but still you cut some audience off.
 
 So ideally, every PC gamer should have both a DirectInput and an Xinput gamepad at home, right? Oh, actually a few of each, in case you'd like to play with friends and you can't know what the next game's going to support.
 
@@ -44,7 +44,7 @@ But the plus side is that you can still enjoy old games with your brand new XInp
 [From MSDN:][voodoo]
 
 > some functionality provided by XInput will be missing from the DirectInput implementation:
-> 
+>
 > - The left and right trigger buttons will act as a single button, not independently
 
 The following explanation is quite confusing but it basically means that DirectInput games will see both triggers as one combined axis, left trigger goes towards -1, right trigger towards +1, and pressing both doesn't work. It allegedly stems from the fact that in Xinput the triggers are analogs with range 0..1 each, while DirectInput only handles axes from -1..1 (with zero being neutral). For racing games you can still use the triggers for acceleration and braking, but other than that you'd mostly need to do without them.

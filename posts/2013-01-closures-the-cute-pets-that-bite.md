@@ -2,8 +2,8 @@
 .. title: Closures: The cute pets that bite
 .. slug: closures-the-cute-pets-that-bite
 .. date: 2013-01-18 20:08:21 UTC
-.. tags:
-.. category:
+.. tags: javascript, python
+.. category: dev
 .. link:
 .. description:
 .. type: text
@@ -41,7 +41,7 @@ C++ example:
 		};
 		n = 999; // This won't change a thing,
 				 // the previous value was copied into the closure
-		return value;             
+		return value;
 	}
 
 	int main() {
@@ -56,7 +56,7 @@ PHP, same example:
 			return $n*$m;
 		};
 		$n = 999; // This won't change a thing either
-		return $closure;             
+		return $closure;
 	}
 
 	$twice = times(2);
@@ -119,7 +119,7 @@ Here the variable `a` is never assigned to inside the closure, so it's not consi
 
 http://ideone.com/xcMeg6
 	class Main {
-		
+
 		public static Runnable makeClosure() {
 			final int a = 10;
 			return new Runnable() {
@@ -129,7 +129,7 @@ http://ideone.com/xcMeg6
 				}
 			};
 		}
-		
+
 		public static void main(String[] args) {
 			Runnable obj = makeClosure();
 			obj.run(); // prints 10
@@ -148,14 +148,14 @@ Closures usually capture variables by reference. This is sometimes forgotten, wh
 
 	using System;
 	using System.Linq;
-	 
+
 	class Example1 {
-		
+
 		static String[] ingredients = new[] {"Spam", "eggs", "magic"};
 		static String[] fridge = new[] {"Five cans of Spam", "a crate of eggs", "milk juice"};
-		
+
 		static int Main() {
-			
+
 			foreach (var ingredient in ingredients) {
 				if (fridge.Any(x => x.IndexOf(ingredient) > -1)) {
 					System.Console.WriteLine("{0} - check", ingredient);
@@ -170,13 +170,13 @@ Closures usually capture variables by reference. This is sometimes forgotten, wh
 Looks nice. See this closure in delegate passed to `Any`? How about this example. Another simple, read-only closure:
 
 	using System;
-	 
+
 	class Example2 {
-		
+
 		static event Action Event;
-		
+
 		static int Main() {
-			
+
 			for (int i=0; i<3; ++i) {
 				Event += () => System.Console.WriteLine("Event {0}", i);
 			}
@@ -233,7 +233,7 @@ Let's rewrite that in Javascript. Same problem:
 
 Same result:
 
-> 3 
+> 3
 > 3
 > 3
 
@@ -254,7 +254,7 @@ Same fix:
 Result:
 
 > 2
-> 2 
+> 2
 > 2
 
 ...Wait, what?! Why not 0, 1, 2? Each closure gets its own variable, right?
@@ -264,12 +264,12 @@ Well, no. Not at all.
 The culprit is, again, variable scoping rules. In C# local variables have **block scope** (like Java, C and C++), but **block scope doesn't exist in Javascript!** Local variables have **function scope**, so that fix didn't really fix much - all closures still capture the same variable (only that this time it's `j`, not `i`, so we end up with three `2`s).
 
 To work this problem around, you can rewrite the code like this:
- 
+
 	function make_printer(n) {
 		return function() {print(n);};
 	}
 
-	var handlers = []; 
+	var handlers = [];
 	function setup() {
 		for(var i=0; i<3; ++i) {
 			handlers.push(make_printer(i));
@@ -315,11 +315,11 @@ Consider this code:
 	// WRONG
 	std::function<int()> makeClosure() {
 		int counter=0;
-		return [&counter]() { 
+		return [&counter]() {
 			return counter++;
-		}; 
+		};
 	}
- 
+
 This won't work here like it would in Javascript or C#. The lambda function stores a reference to the local variable `counter` which goes out of scope. If you'd ever call the result, you'd end up with undefined results.
 
 C++ is very strict about variable scope and lifetime. There's no GC, there's the strict notion of no ownership and no magic transfer of such ownership can happen. Consider the more general case: What if `makeClosure` would spawn several closures, each of them referring to `counter`? The compiler would need a non-trivial scheme to make these things work since there's no garbage collector to clean `counter` up after all closures are destroyed.

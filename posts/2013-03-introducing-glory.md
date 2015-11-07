@@ -2,8 +2,8 @@
 .. title: Introducing Glory
 .. slug: introducing-glory
 .. date: 2013-03-28 16:07:40 UTC
-.. tags:
-.. category:
+.. tags: projects
+.. category: dev
 .. link:
 .. description:
 .. type: text

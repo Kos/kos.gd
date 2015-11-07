@@ -3,7 +3,7 @@
 .. slug: say-hello-to-unicode
 .. date: 2013-02-09 21:52:19 UTC
 .. tags:
-.. category:
+.. category: dev
 .. link:
 .. description:
 .. type: text
@@ -64,7 +64,7 @@ UTF-8 uses one to four code units to encode a code point. It has some awesome pr
 
 Wider encodings (UTF-16, UTF-32) solve the endianess problem by allowing the document to be started with a "byte order mark" (U+FEFF) that allows to determine which variant is used (as the reverse, 0xFFFE, isn't a valid code point). The encoding names "UTF-16LE" or "UTF-16BE" refer to that. (Outside of this special job, U+FEFF code point normally serves as "ZERO WIDTH NO-BREAK SPACE".)
 
-UTF-8 doesn't need the BOM, but it's still allowed. It's neither necessary nor recommended, but some Windows programs like Notepad use it by default. 
+UTF-8 doesn't need the BOM, but it's still allowed. It's neither necessary nor recommended, but some Windows programs like Notepad use it by default.
 
 ## UTF-16
 
@@ -86,7 +86,7 @@ Most languages provide you some kind of a "string" type that is supposed to repr
 
 A string is conceptually a sequence of characters. This allows for asking:
 
-- "how many characters does this string have?" 
+- "how many characters does this string have?"
 - "show me the character X of that string".
 
 To answer these questions consistently, whe have to define what is "a character"? Turns out that's not obvious. In a high-level language one might assume one "character" to be a code point, but this isn't generally the case (and there's nothing wrong in that).
@@ -131,7 +131,7 @@ There are two types:
 - `str` is a byte string. Smooth, cool and predictable.
 - `unicode` is more interesting, however. Let's have a look.
 
-Conceptually, `unicode` is a sequence of code points. There are several syntaxes to 
+Conceptually, `unicode` is a sequence of code points. There are several syntaxes to
 
 	u'Ω'
 	u'\u03a9'

@@ -2,8 +2,8 @@
 .. title: Don't use old OpenGL
 .. slug: dont-use-old-opengl
 .. date: 2012-11-20 01:24:33 UTC
-.. tags:
-.. category:
+.. tags: opengl
+.. category: dev
 .. link:
 .. description:
 .. type: text
@@ -42,4 +42,4 @@ My recommendations
 
 - If you want to **learn graphics programming**, learn modern OpenGL. You'll gain more insight into how graphics cards work.
 - If you just want to **write a visualisation or a game**, don't use OpenGL directly, use a 3D graphics engine like Irrlicht. OpenGL (be it new or old) is still rather low-level and you'll need to pay attention to lots of technical details to use it effectively.
-- If you're experienced and you're writing a graphics engine **with maximum compatibility in mind** - then indeed you have a good reason to use an older OpenGL version. 
+- If you're experienced and you're writing a graphics engine **with maximum compatibility in mind** - then indeed you have a good reason to use an older OpenGL version.

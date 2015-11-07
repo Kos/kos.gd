@@ -2,8 +2,8 @@
 .. title: Commentary on Javascript: The Good Parts
 .. slug: commentary-on-javascript-the-good-parts
 .. date: 2013-12-22 18:18:12 UTC
-.. tags:
-.. category:
+.. tags: books, javascript
+.. category: dev
 .. link:
 .. description:
 .. type: text

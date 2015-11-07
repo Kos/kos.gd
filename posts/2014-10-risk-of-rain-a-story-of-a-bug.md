@@ -3,7 +3,7 @@
 .. slug: risk-of-rain-a-story-of-a-bug
 .. date: 2014-10-31 22:02:23 UTC
 .. tags:
-.. category:
+.. category: gaming
 .. link:
 .. description:
 .. type: text
@@ -17,7 +17,7 @@ So the funniest thing happened recently: Risk of Rain, a well-acclaimed video ga
 
 The bug basically causes the player to need much more experience points to advance to the next level (to get more health and bigger damage). Instead of reaching the second stage of the game in level 8 or 10, the player would likely be level 2 or 3, being more fragile and dealing much less damage, thus rendering the game super-difficult and near-impossible to complete.
 
-Of course, any player who plays the game would notice this sudden spike of difficulty immediately after updating. But what if most of the players would be seeing the game for very the first time with this inhuman difficulty setting? They would probably assume the game was designed  this way. This means a lot of surprise and a mix of disappointment and stubborn teeth-gnashing. 
+Of course, any player who plays the game would notice this sudden spike of difficulty immediately after updating. But what if most of the players would be seeing the game for very the first time with this inhuman difficulty setting? They would probably assume the game was designed  this way. This means a lot of surprise and a mix of disappointment and stubborn teeth-gnashing.
 
 This is of course very unlikely to happen. One possibility is if the update would exactly coincide in time with some great marketing campaign that would bring a huge influx of new players to the game world. A campaign like, say, Humble Indie Bundle 13, which just happened to include a copy (well, 4 copies - "invite your friends") of Risk of Rain.
 
@@ -36,7 +36,7 @@ The fun part is how many players just instantly assumed that this high difficult
 - Okay, I can't kill anything in Stage 2. Why? Maybe I didn't collect enough items in Stage 1 and I'm undergeared?
 - Oh, this time I collected some damage dealing items and I kind of can kill stuff in Stage 2 if I try hard and there's not many of 'em.
 - It's still super hard... So this game has a Time component, right? The longer I play, the harder the mobs become, understood. Maybe I'm just supposed to finish Stage 1 fast enough?
-- Wow, I can survive in Stage 2 if I consequently run from hordes of enemies and only engage from safe distance, or if I isolate one of them. Is this what I'm supposed to be doing? 
+- Wow, I can survive in Stage 2 if I consequently run from hordes of enemies and only engage from safe distance, or if I isolate one of them. Is this what I'm supposed to be doing?
 - Hey, I even earn cash this way and can steal some more items as I'm running from overpowered enemies. I'm a bit stronger now, let's try going for the boss.
 - Wow, that was rough, the Stage 2 boss is down somehow; managed to run from the other mobs and take him on 1:1. Now I have to kill what's left.
 - Right, if I use the terrain correctly, I can nail every group without going into danger... But why does it take SO much time? My main weapon is pretty much useless by now and I spend most of the time waiting for the 30s cooldown of the special weapon.
