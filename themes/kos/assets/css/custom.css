@@ -1,5 +1,6 @@
 html {
   font-size: inherit;
+  overflow-y: scroll; /* constant page width */
 }
 body {
   background: url('../images/metroid-robin-wouters-3.jpg');
