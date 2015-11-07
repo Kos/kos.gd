@@ -28,24 +28,28 @@
             %endfor
         </ul>
         %endif
-        <div class="metadata">
-            %if len(translations) > 1 and generate_rss:
-                %for language in sorted(translations):
-                <p class="feedlink">
-                    <a href="${_link(kind + "_rss", tag, language)}" hreflang="${language}" type="application/rss+xml">${messages('RSS feed', language)} (${language})</a>&nbsp;
-                </p>
-                %endfor
-            %elif generate_rss:
-                <p class="feedlink"><a href="${_link(kind + "_rss", tag)}" type="application/rss+xml">${messages('RSS feed')}</a></p>
-            %endif
-        </div>
     </header>
     %if posts:
     <ul class="postlist">
     % for post in posts:
-        <li><time class="listdate" datetime="${post.formatted_date('webiso')}" title="${post.formatted_date(date_format)}">${post.formatted_date(date_format)}</time><a href="${post.permalink()}" class="listtitle">${post.title()|h}<a></li>
+        <li>
+            <a href="${post.permalink()}" class="listtitle">${post.title()|h}</a>
+            <time class="listdate" datetime="${post.formatted_date('webiso')}" title="${post.formatted_date(date_format)}">${post.formatted_date(date_format)}
+            </time>
+        </li>
     % endfor
     </ul>
     %endif
+    <div class="metadata">
+    %if len(translations) > 1 and generate_rss:
+        %for language in sorted(translations):
+        <p class="feedlink">
+            <a href="${_link(kind + "_rss", tag, language)}" hreflang="${language}" type="application/rss+xml">${messages('RSS feed', language)} (${language})</a>&nbsp;
+        </p>
+        %endfor
+    %elif generate_rss:
+        <p class="feedlink"><a href="${_link(kind + "_rss", tag)}" type="application/rss+xml">${messages('RSS feed')}</a></p>
+    %endif
+    </div>
 </article>
 </%block>
