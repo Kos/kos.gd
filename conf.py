@@ -128,9 +128,11 @@ TRANSLATIONS_PATTERN = "{path}.{lang}.{ext}"
 
 NAVIGATION_LINKS = {
     DEFAULT_LANG: (
-        ("/archive.html", "Archive"),
-        ("/categories/", "Tags"),
-        ("/rss.xml", "RSS feed"),
+        ("/categories/dev/", "Dev"),
+        ("/categories/gaming/", "Gaming"),
+        # ("/archive.html", "Archive"),
+        # ("/categories/", "Tags"),
+        ("/rss.xml", "RSS"),
     ),
 }
 
@@ -382,7 +384,7 @@ HIDDEN_TAGS = ['mathjax']
 # output / TRANSLATION[lang] / CATEGORY_PATH / CATEGORY_PREFIX category.html (list of posts for a category)
 # output / TRANSLATION[lang] / CATEGORY_PATH / CATEGORY_PREFIX category.xml (RSS feed for a category)
 # CATEGORY_PATH = "categories"
-# CATEGORY_PREFIX = "cat_"
+CATEGORY_PREFIX = ""
 
 # If CATEGORY_ALLOW_HIERARCHIES is set to True, categories can be organized in
 # hierarchies. For a post, the whole path in the hierarchy must be specified,
@@ -398,23 +400,24 @@ CATEGORY_OUTPUT_FLAT_HIERARCHY = False
 # the posts themselves. If set to False, it will be just a list of links.
 # CATEGORY_PAGES_ARE_INDEXES = False
 
+# Set special titles for category pages. The default is "Posts about CATEGORY".
+CATEGORY_PAGES_TITLES = {
+   DEFAULT_LANG: {
+       "dev": "Dev",
+       "gaming": "Gaming"
+   },
+}
+
 # Set descriptions for category pages to make them more interesting. The
 # default is no description. The value is used in the meta description
 # and displayed underneath the category list or index page’s title.
-# CATEGORY_PAGES_DESCRIPTIONS = {
-#    DEFAULT_LANG: {
-#        "blogging": "Meta-blog posts about blogging about blogging.",
-#        "open source": "My contributions to my many, varied, ever-changing, and eternal libre software projects."
-#    },
-# }
+CATEGORY_PAGES_DESCRIPTIONS = {
+    DEFAULT_LANG: {
+        "dev": "Articles about programming languages, gamedev, webdev and random stuff. I sneak in something less technical once in a while.",
+        "gaming": "Random articles about mainstream, indie and retro gaming. (I might start reviewing titles too at some point)",
+    },
+}
 
-# Set special titles for category pages. The default is "Posts about CATEGORY".
-# CATEGORY_PAGES_TITLES = {
-#    DEFAULT_LANG: {
-#        "blogging": "Meta-posts about blogging",
-#        "open source": "Posts about open source software"
-#    },
-# }
 
 # If you do not want to display a category publicly, you can mark it as hidden.
 # The category will not be displayed on the category list page.
@@ -458,7 +461,7 @@ HIDDEN_AUTHORS = ['Guest']
 # Create per-month archives instead of per-year
 # CREATE_MONTHLY_ARCHIVE = False
 # Create one large archive instead of per-year
-# CREATE_SINGLE_ARCHIVE = False
+# CREATE_SINGLE_ARCHIVE = True
 # Create year, month, and day archives each with a (long) list of posts
 # (overrides both CREATE_MONTHLY_ARCHIVE and CREATE_SINGLE_ARCHIVE)
 # CREATE_FULL_ARCHIVES = False
