@@ -1,8 +1,12 @@
+html {
+  font-size: inherit;
+}
 body {
   background: url('../images/metroid-robin-wouters-2.jpg');
   background-position: center;
   background-attachment: fixed;
   background-size: cover;
+  font-size: 100%;
 }
 .container-fluid {
   max-width: 900px;
@@ -10,4 +14,8 @@ body {
 .body-content {
   background: white;
   padding: 1em 3em;
+}
+
+footer {
+  font-size: 14px;
 }
