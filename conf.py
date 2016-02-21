@@ -22,7 +22,7 @@ BLOG_AUTHOR = "Tomasz Wesołowski"  # (translatable)
 BLOG_TITLE = "kos.gd"  # (translatable)
 # This is the main URL for your site. It will be used
 # in a prominent link. Don't forget the protocol (http/https)!
-SITE_URL = "http://kos.gd/"
+SITE_URL = "https://kos.gd/"
 # This is the URL where Nikola's output will be deployed.
 # If not set, defaults to SITE_URL
 # BASE_URL = "http://kos.gd/"
