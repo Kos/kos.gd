@@ -44,7 +44,9 @@ If I desire to be sentimental, I won't think about it much and I will just keep 
 
 This puts you, dear power gamer, in a rather tight spot: What do I do with my Stardust? I'm a level 10 trainer, I'm earning jars of Stardust and hauling truckloads of Pocket Men, what shall I do? Do I, like, make use of all this richness and use up the Resource to make my pupils Stronger? No, dear friend. If you wish to be a rational adult and a responsible power gamer, you will spend nothing, not until the perspective of catching stronger Pokémon is put aside by you levelling up to a place when the next level isn't coming in foreseeable future. Only then, when the risk of being Potentially Wasteful is put aside, you're allowed to unseal the Stardust jar without wearing the Suboptimal Decision Maker hat.
 
-This sums up the Stardust tragedy: The fun thing to do with it is not optimal; the optimal thing to do is not fun.
+This sums up the Stardust tragedy:
+
+> The fun thing to do with it is not optimal; the optimal thing to do is not fun.
 
 ## Where do we go from here?
 
