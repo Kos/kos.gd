@@ -39,3 +39,7 @@ a {
     color: #377861;
     text-decoration: none;
   }
+
+blockquote p, blockquote {
+  font-size: inherit;
+}
