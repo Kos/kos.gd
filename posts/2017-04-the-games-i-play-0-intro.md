@@ -20,3 +20,5 @@ Among all the random titles that I happened to launch, I can pinpoint a few genr
 Here goes...
 
 - [Part 1: Roguelite](/posts/the-games-i-play-roguelite/)
+- [Part 2: Metroidvania](/posts/the-games-i-play-metroidvania/)
+- [Part 3: Shmup](/posts/the-games-i-play-shmup/)
