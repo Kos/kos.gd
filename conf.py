@@ -533,6 +533,8 @@ REDIRECTIONS = [
     ("2014/10/risk-of-rain-a-story-of-a-bug/index.html", "/posts/risk-of-rain-a-story-of-a-bug/"),
     ("2015/05/on-gamepads-in-pc-gaming-xinput-and-compatibility/index.html", "/posts/on-gamepads-in-pc-gaming-xinput-and-compatibility/"),
     ("2015/09/games-are-generators-of-stories/index.html", "/posts/games-are-generators-of-stories/"),
+
+    ("posts/xcom-terror-from-the-old/index.html", "/posts/how-xcom-tftd-builds-tension/"),
 ]
 
 # Presets of commands to execute to deploy. Can be anything, for

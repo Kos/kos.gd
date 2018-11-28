@@ -1,6 +1,6 @@
 <!--
-.. title: XCOM: Terror from the Old
-.. slug: xcom-terror-from-the-old
+.. title: How X-COM: Terror from the Deep builds tension
+.. slug: how-xcom-tftd-builds-tension
 .. date: 2018-01-13 19:50:00 UTC
 .. tags:
 .. category: gaming
@@ -19,7 +19,7 @@ Battles in XCOM (2012) tend to start like this:
 
 - My squad is deployed in a cosy little corner of a map, relatively safe and all facing the right direction.
 - They take a turn or two moving forward, taking cover.
-- Then they spot aliens! The aliens do a little dance, then take cover. Music changes to "battle". 
+- Then they spot aliens! The aliens do a little dance, then take cover. Music changes to "battle".
 - More aliens can join later after entering field of vision and doing their respective little dances.
 - When the battle's over, music calms down a bit until you find a next group.
 
@@ -33,7 +33,7 @@ What happens next is a sequence of turns where you move out and start to cover m
 
 And when you finally do, it feels *really* great.
 
-In contrast, XCOM does a lot to make the game more predictable. You are almost never under fire by enemies that you can't see. No, the game makes double sure to give you a zoomed-in view of your enemy before any fight ensues. 
+In contrast, XCOM does a lot to make the game more predictable. You are almost never under fire by enemies that you can't see. No, the game makes double sure to give you a zoomed-in view of your enemy before any fight ensues.
 
 Oh, did I mention terror missions? They seem to be a common element of UFO and XCOM, but they are drastically different in terms of both their role in the game and the way they play out in practice.
 
