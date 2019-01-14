@@ -27,7 +27,7 @@ I can think of several reasons why I had this attitude:
 
 I would like to frame Point 3 as "lack of clear purpose". Common symptoms: frustration and lack of attention during the meeting.
 
-Here's what changed for me over the course of a few years: We solved point 3 and the rest suddenly stoppped being an issue.
+Here's what changed for me over the course of a few years: We solved point 3 and the rest suddenly stopped being an issue.
 
 When I walk out of a meeting satisfied, I don't regret the time and I'm willing to pay the price of an interruption. In practice, I'd just put a little extra planning effort so that the interruption doesn't happen.
 
@@ -73,11 +73,11 @@ Booking time in advance is not bad on its own, but it helps to establish the goa
 
 ### Multiple meetings at once.
 
-In one of the teams I worked, we had bi-weekly planning meetings which easily took half a day (sometimes more). I remember dreading them, feeling tired afterwards, and even writing off mondays as "meeting days" where no productive work gets done. It took us a while to find a better format.
+In one of the teams I worked, we had bi-weekly planning meetings which easily took half a day (sometimes more). I remember dreading them, feeling tired afterwards, and even writing off Mondays as "meeting days" where no productive work gets done. It took us a while to find a better format.
 
 I attribute the chaos to the fact that each participant had a different goal for the meeting: Devs wanted to agree what goes next and write implementation plans, PO wanted estimates and commitment, devs wanted to review long term roadmap, PO wanted to check how realistic a new idea sounds, designers wanted to make sure we agree on UX and QA wanted to contest the spec and figure out a test plan.
 
-If a meeting has say 8 people with 5 distinct goals total, there's only 20% time to address every single goal. This also worsens focus: Compare [youtube party phenomenon][youtubeparty] (substitute discussing for movie-watching).
+If a meeting has say 8 people with 5 distinct goals total, there's only 20% time to address every single goal. This also worsens focus: Compare [YouTube party phenomenon][youtubeparty] (substitute discussing for movie-watching).
 
 Different objectives call for different drivers and often different audience. I believe most large meetings could benefit from splitting: define clear sections, make a short break in between, or go all the way and schedule each section independently.
 
