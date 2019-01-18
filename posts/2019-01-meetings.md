@@ -2,7 +2,7 @@
 .. title: Efficient meetings
 .. slug: efficient-meetings
 .. date: 2019-01-07 12:50:00 UTC
-.. tags:
+.. tags: meetings
 .. category: dev
 .. link:
 .. description:
