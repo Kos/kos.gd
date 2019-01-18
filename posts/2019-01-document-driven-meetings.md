@@ -9,7 +9,7 @@
 .. type: text
 -->
 
-In my [previous post][prev], I argued that meetings tend to much better if they have a driver and a well-defined objective.
+In my [previous post][prev], I argued that meetings tend to be much better if they have a driver and a well-defined objective.
 
 I'd like to invite you to a little thought experiment. Assume there's only one possible meeting objective: to collaboratively write a document. Can you fit each of your meetings into this shape?
 
@@ -35,7 +35,7 @@ Another tricky case is [1-1 meetings][11meeting], a general idea which has wildl
 
 ---
 
-Now the imporant point:
+Now the important point:
 
 > Magical things happen if you go through the trouble of actually writing the document during the meeting (or at least, directly afterwards).
 
@@ -63,7 +63,7 @@ A sentence, once written and displayed, leaves less space for misinterpretation 
 
 ## Purpose
 
-A document easily ensures that the meeting's objective is clear to all participants. It removes a lot of gray zone about what is in the scope of the meeting and what isn't. It also sets a clear finish line that shows when the meeting is over.
+A document easily ensures that the meeting's objective is clear to all participants. It removes a lot of grey zone about what is in the scope of the meeting and what isn't. It also sets a clear finish line that shows when the meeting is over.
 
 The same thing can be accomplished by writing down and sharing a specific agenda before the meeting happens (which is a good idea!). But if you take this agenda and convert each bullet point into a header, you already have a good document draft that you can collaboratively flesh out during the meeting.
 
