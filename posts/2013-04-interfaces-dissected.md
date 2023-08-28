@@ -64,5 +64,5 @@ While there's much elegance in building complex interfaces using simple building
 
 A notable example of this direction is the set of .NET features that power the WPF, such as Dependency Properties and Routed Events. I've also had some success with this approach during [Glory][glory]'s development, when I was designing what later became [pyvvm][pyvvm], a microframework for MVVM programming in Python.
 
-[glory]: kos.gd/2013/03/introducing-glory/
+[glory]: https://kos.gd/2013/03/introducing-glory/
 [pyvvm]: https://github.com/Kos/pyvvm

@@ -105,10 +105,10 @@ Cython is able to generate Python functions, C functions or C functions with Pyt
 
 # Still not satisfied?
 
-Fan of managed code? Check [IronPython][iron] for .NET and [Jython](jython) for the JVM.
+Fan of managed code? Check [IronPython][iron] for .NET and [Jython][jython] for the JVM.
 
-[iron]: http://www.jython.org/downloads.html
-[jython]: http://ironpython.net/
+[iron]: https://ironpython.net/
+[jython]: https://www.jython.org/
 
 Or maybe [embedding the Python interpreter inside a C or C++ application][embedding] is what you are after? This can work in tandem with the solutions mentioned before.
 
