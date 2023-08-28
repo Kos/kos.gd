@@ -30,7 +30,9 @@ I removed the corrupted object:
 
 Just this allowed `git fsck` to complete and reveal, among the usual dangling objects, this message:
 
-    missing commit 65d626bb82c8996f8fc5f659f7c207fee1d74948
+```
+missing commit 65d626bb82c8996f8fc5f659f7c207fee1d74948
+```
 
 Oh, so it's a commit! That makes sense. I plugged in a pendrive with a backup (which was another bare repository) and made a fresh clone. There, running `git show` worked there - that's some good news, because the thing that got corrupted is in my backup.
 

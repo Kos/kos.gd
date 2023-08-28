@@ -138,10 +138,11 @@ NAVIGATION_LINKS = {
 
 # Name of the theme to use.
 THEME = "kos"
+# THEME = "bootblog4"
 
 # Primary color of your theme. This will be used to customize your theme and
 # auto-generate related colors in POSTS_SECTION_COLORS. Must be a HEX value.
-THEME_COLOR = '#5670d4'
+THEME_COLOR = "#5670d4"
 
 # POSTS and PAGES contains (wildcard, destination, template) tuples.
 #
@@ -199,7 +200,9 @@ TIMEZONE = "UTC"
 # Date format used to display post dates.
 # (str used by datetime.datetime.strftime)
 # DATE_FORMAT = '%Y-%m-%d %H:%M'
-DATE_FORMAT = '%Y-%m-%d'
+# DATE_FORMAT = '%Y-%m-%d'
+# update
+DATE_FORMAT = "yyyy-MM-dd"
 
 # Date format used to display post dates, if local dates are used.
 # (str used by moment.js)
@@ -245,18 +248,18 @@ DATE_FORMAT = '%Y-%m-%d'
 # 'markdown' is MarkDown
 # 'html' assumes the file is HTML and just copies it
 COMPILERS = {
-    "rest": ('.rst', '.txt'),
-    "markdown": ('.md', '.mdown', '.markdown'),
-    "textile": ('.textile',),
-    "txt2tags": ('.t2t',),
-    "bbcode": ('.bb',),
-    "wiki": ('.wiki',),
-    "ipynb": ('.ipynb',),
-    "html": ('.html', '.htm'),
+    "rest": (".rst", ".txt"),
+    "markdown": (".md", ".mdown", ".markdown"),
+    "textile": (".textile",),
+    "txt2tags": (".t2t",),
+    "bbcode": (".bb",),
+    "wiki": (".wiki",),
+    "ipynb": (".ipynb",),
+    "html": (".html", ".htm"),
     # PHP files are rendered the usual way (i.e. with the full templates).
     # The resulting files have .php extensions, making it possible to run
     # them without reconfiguring your server to recognize them.
-    "php": ('.php',),
+    "php": (".php",),
     # Pandoc detects the input from the source filename
     # but is disabled by default as it would conflict
     # with many of the others.
@@ -286,14 +289,6 @@ COMPILERS = {
 # Writes tag cloud data in form of tag_cloud_data.json.
 # Warning: this option will change its default value to False in v8!
 WRITE_TAG_CLOUD = False
-
-# Generate pages for each section. The site must have at least two sections
-# for this option to take effect. It wouldn't build for just one section.
-POSTS_SECTIONS = True
-
-# Setting this to False generates a list page instead of an index. Indexes
-# are the default and will apply GENERATE_ATOM if set.
-# POSTS_SECTIONS_ARE_INDEXES = True
 
 # Each post and section page will have an associated color that can be used
 # to style them with a recognizable color detail across your site. A color
@@ -354,7 +349,7 @@ POSTS_SECTIONS = True
 # Set descriptions for tag pages to make them more interesting. The
 # default is no description. The value is used in the meta description
 # and displayed underneath the tag list or index page’s title.
-# TAG_PAGES_DESCRIPTIONS = {
+# TAG_DESCRIPTIONS = {
 #    DEFAULT_LANG: {
 #        "blogging": "Meta-blog posts about blogging about blogging.",
 #        "open source": "My contributions to my many, varied, ever-changing, and eternal libre software projects."
@@ -372,7 +367,7 @@ POSTS_SECTIONS = True
 # If you do not want to display a tag publicly, you can mark it as hidden.
 # The tag will not be displayed on the tag list page, the tag cloud and posts.
 # Tag pages will still be generated.
-HIDDEN_TAGS = ['mathjax']
+HIDDEN_TAGS = ["mathjax"]
 
 # Only include tags on the tag list/overview page if there are at least
 # TAGLIST_MINIMUM_POSTS number of posts or more with every tag. Every tag
@@ -402,17 +397,14 @@ CATEGORY_OUTPUT_FLAT_HIERARCHY = False
 # CATEGORY_PAGES_ARE_INDEXES = False
 
 # Set special titles for category pages. The default is "Posts about CATEGORY".
-CATEGORY_PAGES_TITLES = {
-   DEFAULT_LANG: {
-       "dev": "Dev",
-       "gaming": "Gaming"
-   },
+CATEGORY_TITLES = {
+    DEFAULT_LANG: {"dev": "Dev", "gaming": "Gaming"},
 }
 
 # Set descriptions for category pages to make them more interesting. The
 # default is no description. The value is used in the meta description
 # and displayed underneath the category list or index page’s title.
-CATEGORY_PAGES_DESCRIPTIONS = {
+CATEGORY_DESCRIPTIONS = {
     DEFAULT_LANG: {
         "dev": "Articles about programming languages, gamedev, webdev and random stuff. I sneak in something less technical once in a while.",
         "gaming": "Random articles about mainstream, indie and retro gaming. (I might start reviewing titles too at some point)",
@@ -453,7 +445,7 @@ HIDDEN_CATEGORIES = []
 # If you do not want to display an author publicly, you can mark it as hidden.
 # The author will not be displayed on the author list page and posts.
 # Tag pages will still be generated.
-HIDDEN_AUTHORS = ['Guest']
+HIDDEN_AUTHORS = ["Guest"]
 
 # Final location for the main blog page and sibling paginated pages is
 # output / TRANSLATION[lang] / INDEX_PATH / index-*.html
@@ -487,13 +479,6 @@ HIDDEN_AUTHORS = ['Guest']
 # absolute: a complete URL (that includes the SITE_URL)
 # URL_TYPE = 'rel_path'
 
-# If USE_BASE_TAG is True, then all HTML files will include
-# something like <base href=http://foo.var.com/baz/bat> to help
-# the browser resolve relative links.
-# In some rare cases, this will be a problem, and you can
-# disable it by setting USE_BASE_TAG to False.
-# USE_BASE_TAG = True
-
 # Final location for the blog main RSS feed is:
 # output / TRANSLATION[lang] / RSS_PATH / rss.xml
 # RSS_PATH = ""
@@ -519,22 +504,51 @@ HIDDEN_AUTHORS = ['Guest']
 REDIRECTIONS = [
     ("2012/10/python-likes-dlls/index.html", "/posts/python-likes-dlls/"),
     ("2012/11/dont-use-old-opengl/index.html", "/posts/dont-use-old-opengl/"),
-    ("2012/12/special-member-lookup-in-python/index.html", "/posts/special-member-lookup-in-python/"),
-    ("2013/01/slicing-traps-in-python-2/index.html", "/posts/slicing-traps-in-python-2/"),
+    (
+        "2012/12/special-member-lookup-in-python/index.html",
+        "/posts/special-member-lookup-in-python/",
+    ),
+    (
+        "2013/01/slicing-traps-in-python-2/index.html",
+        "/posts/slicing-traps-in-python-2/",
+    ),
     ("2013/01/the-python-gets-gallery/index.html", "/posts/the-python-gets-gallery/"),
-    ("2013/01/closures-the-cute-pets-that-bite/index.html", "/posts/closures-the-cute-pets-that-bite/"),
-    ("2013/01/5-ways-to-use-python-with-native-code/index.html", "/posts/5-ways-to-use-python-with-native-code/"),
-    ("2013/02/git-adventures-loose-object-is-corrupted/index.html", "/posts/git-adventures-loose-object-is-corrupted/"),
+    (
+        "2013/01/closures-the-cute-pets-that-bite/index.html",
+        "/posts/closures-the-cute-pets-that-bite/",
+    ),
+    (
+        "2013/01/5-ways-to-use-python-with-native-code/index.html",
+        "/posts/5-ways-to-use-python-with-native-code/",
+    ),
+    (
+        "2013/02/git-adventures-loose-object-is-corrupted/index.html",
+        "/posts/git-adventures-loose-object-is-corrupted/",
+    ),
     ("2013/02/say-hello-to-unicode/index.html", "/posts/say-hello-to-unicode/"),
     ("2013/03/introducing-glory/index.html", "/posts/introducing-glory/"),
     ("2013/04/interfaces-dissected/index.html", "/posts/interfaces-dissected/"),
-    ("2013/12/commentary-on-javascript-the-good-parts/index.html", "/posts/commentary-on-javascript-the-good-parts/"),
+    (
+        "2013/12/commentary-on-javascript-the-good-parts/index.html",
+        "/posts/commentary-on-javascript-the-good-parts/",
+    ),
     ("2014/01/bug-vs-feature/index.html", "/posts/bug-vs-feature/"),
-    ("2014/10/risk-of-rain-a-story-of-a-bug/index.html", "/posts/risk-of-rain-a-story-of-a-bug/"),
-    ("2015/05/on-gamepads-in-pc-gaming-xinput-and-compatibility/index.html", "/posts/on-gamepads-in-pc-gaming-xinput-and-compatibility/"),
-    ("2015/09/games-are-generators-of-stories/index.html", "/posts/games-are-generators-of-stories/"),
-
-    ("posts/xcom-terror-from-the-old/index.html", "/posts/how-xcom-tftd-builds-tension/"),
+    (
+        "2014/10/risk-of-rain-a-story-of-a-bug/index.html",
+        "/posts/risk-of-rain-a-story-of-a-bug/",
+    ),
+    (
+        "2015/05/on-gamepads-in-pc-gaming-xinput-and-compatibility/index.html",
+        "/posts/on-gamepads-in-pc-gaming-xinput-and-compatibility/",
+    ),
+    (
+        "2015/09/games-are-generators-of-stories/index.html",
+        "/posts/games-are-generators-of-stories/",
+    ),
+    (
+        "posts/xcom-terror-from-the-old/index.html",
+        "/posts/how-xcom-tftd-builds-tension/",
+    ),
 ]
 
 # Presets of commands to execute to deploy. Can be anything, for
@@ -652,7 +666,7 @@ REDIRECTIONS = [
 # (the thumbnail has ``.thumbnail`` added before the file extension).
 # The format is a dictionary of {source: relative destination}.
 
-IMAGE_FOLDERS = {'images': 'images'}
+IMAGE_FOLDERS = {"images": "images"}
 # IMAGE_THUMBNAIL_SIZE = 400
 
 # #############################################################################
@@ -796,11 +810,12 @@ LICENSE = ""
 # A small copyright notice for the page footer (in HTML).
 # (translatable)
 CONTENT_FOOTER = (
-    'Contents &copy; {date} '
+    "Contents &copy; {date} "
     '<a href="mailto:{email}">{author}</a>. '
-    'Powered by '
+    "Powered by "
     '<a href="https://getnikola.com">Nikola</a>. '
-    '{license}')
+    "{license}"
+)
 
 # Things that will be passed to CONTENT_FOOTER.format().  This is done
 # for translatability, as dicts are not formattable.  Nikola will
@@ -820,8 +835,8 @@ CONTENT_FOOTER_FORMATS = {
             "email": BLOG_EMAIL,
             "author": BLOG_AUTHOR,
             "date": time.gmtime().tm_year,
-            "license": LICENSE
-        }
+            "license": LICENSE,
+        },
     )
 }
 
@@ -864,14 +879,6 @@ COMMENT_SYSTEM_ID = "kosgd"
 # it will instead /foo/default.html => /foo)
 # (Note: This was briefly STRIP_INDEX_HTML in v 5.4.3 and 5.4.4)
 STRIP_INDEXES = True
-
-# Should the sitemap list directories which only include other directories
-# and no files.
-# Default to True
-# If this is False
-# e.g. /2012 includes only /01, /02, /03, /04, ...: don't add it to the sitemap
-# if /2012 includes any files (including index.html)... add it to the sitemap
-# SITEMAP_INCLUDE_FILELESS_DIRS = True
 
 # List of files relative to the server root (!) that will be asked to be excluded
 # from indexing and other robotic spidering. * is supported. Will only be effective
@@ -935,7 +942,7 @@ PRETTY_URLS = True
 # Note: most Nikola-specific extensions are done via the Nikola plugin system,
 #       with the MarkdownExtension class and should not be added here.
 # The default is ['fenced_code', 'codehilite']
-MARKDOWN_EXTENSIONS = ['fenced_code', 'codehilite', 'extra']
+MARKDOWN_EXTENSIONS = ["fenced_code", "codehilite", "extra"]
 
 # Extra options to pass to the pandoc comand.
 # by default, it's empty, is a list of strings, for example
@@ -1005,7 +1012,8 @@ COPY_SOURCES = False
 # This search form works for any site and looks good in the "site" theme where
 # it appears on the navigation bar:
 #
-SEARCH_FORM = """
+SEARCH_FORM = (
+    """
 <!-- DuckDuckGo custom search -->
 <form method="get" id="search" action="//duckduckgo.com/"
  class="navbar-form pull-left">
@@ -1018,7 +1026,9 @@ SEARCH_FORM = """
 <input type="submit" value="DuckDuckGo Search" style="visibility: hidden;">
 </form>
 <!-- End of custom search -->
-""" % SITE_URL
+"""
+    % SITE_URL
+)
 #
 # If you prefer a Google search form, here's an example that should just work:
 # SEARCH_FORM = """
@@ -1086,15 +1096,10 @@ BODY_END = """
 
 # If you hate "Filenames with Capital Letters and Spaces.md", you should
 # set this to true.
-UNSLUGIFY_TITLES = True
+FILE_METADATA_UNSLUGIFY_TITLES = True
 
 # Additional metadata that is added to a post when creating a new_post
 # ADDITIONAL_METADATA = {}
-
-# Nikola supports Open Graph Protocol data for enhancing link sharing and
-# discoverability of your site on Facebook, Google+, and other services.
-# Open Graph is enabled by default.
-# USE_OPEN_GRAPH = True
 
 # Nikola supports Twitter Card summaries, but they are disabled by default.
 # They make it possible for you to attach media to Tweets that link
@@ -1163,4 +1168,4 @@ GLOBAL_CONTEXT = {}
 # rendered
 GLOBAL_CONTEXT_FILLER = []
 
-TEASER_REGEXP = re.compile('<!--s*(more|TEASER_END)(:(.+))?s*-->', re.IGNORECASE)
+TEASER_REGEXP = re.compile("<!--s*(more|TEASER_END)(:(.+))?s*-->", re.IGNORECASE)

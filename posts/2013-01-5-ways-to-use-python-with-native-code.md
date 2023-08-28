@@ -19,11 +19,13 @@ But why can't we have both? Using two languages together introduces complexity, 
 
 There's a standard Python library called `ctypes` that is able to load a library (`dll` or `so` depending on your system), call functions from it and do the necessary conversions between C types and Python types. Easier than it sounds like!
 
-    >>> import ctypes
-    >>> n = ctypes.cdll.msvcrt.printf('hello world! %d\n',123)
-    hello world! 123
-    >>> n
-    17
+```python
+>>> import ctypes
+>>> n = ctypes.cdll.msvcrt.printf('hello world! %d\n',123)
+hello world! 123
+>>> n
+17
+```
 
 That said, I must mention that the library needs some boilerplate code when dealing with more complex types, like structures. You may have some luck with wrapper generators like [ctypesgen][ctypesgen] that can parse C headers and generate Python code with the needed definitions.
 
@@ -50,9 +52,11 @@ Boost::Python is a template library that provides a declarative syntax to wrap u
 
 Exposing a class simply looks like:
 
-    class_<World>("World")
-        .def("greet", &World::greet)
-        .def("set", &World::set)
+```cpp
+class_<World>("World")
+    .def("greet", &World::greet)
+    .def("set", &World::set)
+```
 
 The library is clever enough to handle type conversions, exception translation and more. [See the docs][boost] for more examples.
 
@@ -90,14 +94,16 @@ Cython code gets compiled to equivalent C that can be compiled into Python exten
 
 Here's a snippet:
 
-	def integrate_f(double a, double b, int N):
-	    cdef int i
-	    cdef double s, dx
-	    s = 0
-	    dx = (b-a)/N
-	    for i in range(N):
-	        s += f(a+i*dx)
-	    return s * dx
+```cython
+def integrate_f(double a, double b, int N):
+	cdef int i
+	cdef double s, dx
+	s = 0
+	dx = (b-a)/N
+	for i in range(N):
+		s += f(a+i*dx)
+	return s * dx
+```
 
 Cython is able to generate Python functions, C functions or C functions with Python wrappers - all with similar syntax.
 
@@ -105,10 +111,10 @@ Cython is able to generate Python functions, C functions or C functions with Pyt
 
 # Still not satisfied?
 
-Fan of managed code? Check [IronPython][iron] for .NET and [Jython](jython) for the JVM.
+Fan of managed code? Check [IronPython][iron] for .NET and [Jython][jython] for the JVM.
 
-[iron]: http://www.jython.org/downloads.html
-[jython]: http://ironpython.net/
+[iron]: https://ironpython.net/
+[jython]: https://www.jython.org/
 
 Or maybe [embedding the Python interpreter inside a C or C++ application][embedding] is what you are after? This can work in tandem with the solutions mentioned before.
 

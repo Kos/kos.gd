@@ -43,3 +43,8 @@ a {
 blockquote p, blockquote {
   font-size: inherit;
 }
+
+div.code, pre.code {
+  margin-left: 0;
+  margin-right: 0;
+}
