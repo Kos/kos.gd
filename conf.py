@@ -248,18 +248,18 @@ DATE_FORMAT = "yyyy-MM-dd"
 # 'markdown' is MarkDown
 # 'html' assumes the file is HTML and just copies it
 COMPILERS = {
-    "rest": ('.rst', '.txt'),
-    "markdown": ('.md', '.mdown', '.markdown'),
-    "textile": ('.textile',),
-    "txt2tags": ('.t2t',),
-    "bbcode": ('.bb',),
-    "wiki": ('.wiki',),
-    "ipynb": ('.ipynb',),
-    "html": ('.html', '.htm'),
+    "rest": (".rst", ".txt"),
+    "markdown": (".md", ".mdown", ".markdown"),
+    "textile": (".textile",),
+    "txt2tags": (".t2t",),
+    "bbcode": (".bb",),
+    "wiki": (".wiki",),
+    "ipynb": (".ipynb",),
+    "html": (".html", ".htm"),
     # PHP files are rendered the usual way (i.e. with the full templates).
     # The resulting files have .php extensions, making it possible to run
     # them without reconfiguring your server to recognize them.
-    "php": ('.php',),
+    "php": (".php",),
     # Pandoc detects the input from the source filename
     # but is disabled by default as it would conflict
     # with many of the others.
@@ -375,7 +375,7 @@ POSTS_SECTIONS = True
 # If you do not want to display a tag publicly, you can mark it as hidden.
 # The tag will not be displayed on the tag list page, the tag cloud and posts.
 # Tag pages will still be generated.
-HIDDEN_TAGS = ['mathjax']
+HIDDEN_TAGS = ["mathjax"]
 
 # Only include tags on the tag list/overview page if there are at least
 # TAGLIST_MINIMUM_POSTS number of posts or more with every tag. Every tag
@@ -406,10 +406,7 @@ CATEGORY_OUTPUT_FLAT_HIERARCHY = False
 
 # Set special titles for category pages. The default is "Posts about CATEGORY".
 CATEGORY_TITLES = {
-   DEFAULT_LANG: {
-       "dev": "Dev",
-       "gaming": "Gaming"
-   },
+    DEFAULT_LANG: {"dev": "Dev", "gaming": "Gaming"},
 }
 
 # Set descriptions for category pages to make them more interesting. The
@@ -456,7 +453,7 @@ HIDDEN_CATEGORIES = []
 # If you do not want to display an author publicly, you can mark it as hidden.
 # The author will not be displayed on the author list page and posts.
 # Tag pages will still be generated.
-HIDDEN_AUTHORS = ['Guest']
+HIDDEN_AUTHORS = ["Guest"]
 
 # Final location for the main blog page and sibling paginated pages is
 # output / TRANSLATION[lang] / INDEX_PATH / index-*.html
@@ -522,22 +519,51 @@ HIDDEN_AUTHORS = ['Guest']
 REDIRECTIONS = [
     ("2012/10/python-likes-dlls/index.html", "/posts/python-likes-dlls/"),
     ("2012/11/dont-use-old-opengl/index.html", "/posts/dont-use-old-opengl/"),
-    ("2012/12/special-member-lookup-in-python/index.html", "/posts/special-member-lookup-in-python/"),
-    ("2013/01/slicing-traps-in-python-2/index.html", "/posts/slicing-traps-in-python-2/"),
+    (
+        "2012/12/special-member-lookup-in-python/index.html",
+        "/posts/special-member-lookup-in-python/",
+    ),
+    (
+        "2013/01/slicing-traps-in-python-2/index.html",
+        "/posts/slicing-traps-in-python-2/",
+    ),
     ("2013/01/the-python-gets-gallery/index.html", "/posts/the-python-gets-gallery/"),
-    ("2013/01/closures-the-cute-pets-that-bite/index.html", "/posts/closures-the-cute-pets-that-bite/"),
-    ("2013/01/5-ways-to-use-python-with-native-code/index.html", "/posts/5-ways-to-use-python-with-native-code/"),
-    ("2013/02/git-adventures-loose-object-is-corrupted/index.html", "/posts/git-adventures-loose-object-is-corrupted/"),
+    (
+        "2013/01/closures-the-cute-pets-that-bite/index.html",
+        "/posts/closures-the-cute-pets-that-bite/",
+    ),
+    (
+        "2013/01/5-ways-to-use-python-with-native-code/index.html",
+        "/posts/5-ways-to-use-python-with-native-code/",
+    ),
+    (
+        "2013/02/git-adventures-loose-object-is-corrupted/index.html",
+        "/posts/git-adventures-loose-object-is-corrupted/",
+    ),
     ("2013/02/say-hello-to-unicode/index.html", "/posts/say-hello-to-unicode/"),
     ("2013/03/introducing-glory/index.html", "/posts/introducing-glory/"),
     ("2013/04/interfaces-dissected/index.html", "/posts/interfaces-dissected/"),
-    ("2013/12/commentary-on-javascript-the-good-parts/index.html", "/posts/commentary-on-javascript-the-good-parts/"),
+    (
+        "2013/12/commentary-on-javascript-the-good-parts/index.html",
+        "/posts/commentary-on-javascript-the-good-parts/",
+    ),
     ("2014/01/bug-vs-feature/index.html", "/posts/bug-vs-feature/"),
-    ("2014/10/risk-of-rain-a-story-of-a-bug/index.html", "/posts/risk-of-rain-a-story-of-a-bug/"),
-    ("2015/05/on-gamepads-in-pc-gaming-xinput-and-compatibility/index.html", "/posts/on-gamepads-in-pc-gaming-xinput-and-compatibility/"),
-    ("2015/09/games-are-generators-of-stories/index.html", "/posts/games-are-generators-of-stories/"),
-
-    ("posts/xcom-terror-from-the-old/index.html", "/posts/how-xcom-tftd-builds-tension/"),
+    (
+        "2014/10/risk-of-rain-a-story-of-a-bug/index.html",
+        "/posts/risk-of-rain-a-story-of-a-bug/",
+    ),
+    (
+        "2015/05/on-gamepads-in-pc-gaming-xinput-and-compatibility/index.html",
+        "/posts/on-gamepads-in-pc-gaming-xinput-and-compatibility/",
+    ),
+    (
+        "2015/09/games-are-generators-of-stories/index.html",
+        "/posts/games-are-generators-of-stories/",
+    ),
+    (
+        "posts/xcom-terror-from-the-old/index.html",
+        "/posts/how-xcom-tftd-builds-tension/",
+    ),
 ]
 
 # Presets of commands to execute to deploy. Can be anything, for
@@ -655,7 +681,7 @@ REDIRECTIONS = [
 # (the thumbnail has ``.thumbnail`` added before the file extension).
 # The format is a dictionary of {source: relative destination}.
 
-IMAGE_FOLDERS = {'images': 'images'}
+IMAGE_FOLDERS = {"images": "images"}
 # IMAGE_THUMBNAIL_SIZE = 400
 
 # #############################################################################
@@ -799,11 +825,12 @@ LICENSE = ""
 # A small copyright notice for the page footer (in HTML).
 # (translatable)
 CONTENT_FOOTER = (
-    'Contents &copy; {date} '
+    "Contents &copy; {date} "
     '<a href="mailto:{email}">{author}</a>. '
-    'Powered by '
+    "Powered by "
     '<a href="https://getnikola.com">Nikola</a>. '
-    '{license}')
+    "{license}"
+)
 
 # Things that will be passed to CONTENT_FOOTER.format().  This is done
 # for translatability, as dicts are not formattable.  Nikola will
@@ -823,8 +850,8 @@ CONTENT_FOOTER_FORMATS = {
             "email": BLOG_EMAIL,
             "author": BLOG_AUTHOR,
             "date": time.gmtime().tm_year,
-            "license": LICENSE
-        }
+            "license": LICENSE,
+        },
     )
 }
 
@@ -938,7 +965,7 @@ PRETTY_URLS = True
 # Note: most Nikola-specific extensions are done via the Nikola plugin system,
 #       with the MarkdownExtension class and should not be added here.
 # The default is ['fenced_code', 'codehilite']
-MARKDOWN_EXTENSIONS = ['fenced_code', 'codehilite', 'extra']
+MARKDOWN_EXTENSIONS = ["fenced_code", "codehilite", "extra"]
 
 # Extra options to pass to the pandoc comand.
 # by default, it's empty, is a list of strings, for example
@@ -1008,7 +1035,8 @@ COPY_SOURCES = False
 # This search form works for any site and looks good in the "site" theme where
 # it appears on the navigation bar:
 #
-SEARCH_FORM = """
+SEARCH_FORM = (
+    """
 <!-- DuckDuckGo custom search -->
 <form method="get" id="search" action="//duckduckgo.com/"
  class="navbar-form pull-left">
@@ -1021,7 +1049,9 @@ SEARCH_FORM = """
 <input type="submit" value="DuckDuckGo Search" style="visibility: hidden;">
 </form>
 <!-- End of custom search -->
-""" % SITE_URL
+"""
+    % SITE_URL
+)
 #
 # If you prefer a Google search form, here's an example that should just work:
 # SEARCH_FORM = """
@@ -1166,4 +1196,4 @@ GLOBAL_CONTEXT = {}
 # rendered
 GLOBAL_CONTEXT_FILLER = []
 
-TEASER_REGEXP = re.compile('<!--s*(more|TEASER_END)(:(.+))?s*-->', re.IGNORECASE)
+TEASER_REGEXP = re.compile("<!--s*(more|TEASER_END)(:(.+))?s*-->", re.IGNORECASE)
