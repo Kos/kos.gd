@@ -1,5 +1,8 @@
 output/
 cache/
 .doit.db
+.doit.db.*
 *.pyc
 *.md.bak
+.vscode
+deploy.sh
