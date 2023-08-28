@@ -19,13 +19,15 @@ We normally consider properties and methods to be some abstract "traits" of obje
 
 There's an abstract interface to properties and methods, which could look like:
 
-    interface Method<ArgTypes..., ReturnType> {
-    	ReturnType call(Object, ArgTypes...);
-    }
-    interface Property<ValueType> {
-    	ValueType get(Object) [optional];
-    	ValueType set(Object, ValueType) [optional];
-    }
+```
+interface Method<ArgTypes..., ReturnType> {
+	ReturnType call(Object, ArgTypes...);
+}
+interface Property<ValueType> {
+	ValueType get(Object) [optional];
+	ValueType set(Object, ValueType) [optional];
+}
+```
 
 (Or you could define Method to be a special case of a Property, that is read-only and returns a callable.)
 
@@ -35,16 +37,20 @@ One instance of a Method is a complete definition together with its code; simila
 
 The normal syntax for accessing properties is:
 
-    obj = new Class();
-    obj.foo;      # read
-    obj.foo = 10; # write
+```
+obj = new Class();
+obj.foo;      # read
+obj.foo = 10; # write
+```
 
 One could invent an alternative syntax which highlights that the property is an object too:
 
-    obj = new Class();
-    foo_property = Class.foo;
-    foo_property.get(obj);     # read
-    foo_property.set(obj, 10); # write
+```
+obj = new Class();
+foo_property = Class.foo;
+foo_property.get(obj);     # read
+foo_property.set(obj, 10); # write
+```
 
 *(Fun fact: That's pretty much how properties [work internally][descr] in Python.)*
 

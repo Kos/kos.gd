@@ -19,11 +19,13 @@ But why can't we have both? Using two languages together introduces complexity, 
 
 There's a standard Python library called `ctypes` that is able to load a library (`dll` or `so` depending on your system), call functions from it and do the necessary conversions between C types and Python types. Easier than it sounds like!
 
-    >>> import ctypes
-    >>> n = ctypes.cdll.msvcrt.printf('hello world! %d\n',123)
-    hello world! 123
-    >>> n
-    17
+```
+>>> import ctypes
+>>> n = ctypes.cdll.msvcrt.printf('hello world! %d\n',123)
+hello world! 123
+>>> n
+17
+```
 
 That said, I must mention that the library needs some boilerplate code when dealing with more complex types, like structures. You may have some luck with wrapper generators like [ctypesgen][ctypesgen] that can parse C headers and generate Python code with the needed definitions.
 
@@ -50,9 +52,11 @@ Boost::Python is a template library that provides a declarative syntax to wrap u
 
 Exposing a class simply looks like:
 
-    class_<World>("World")
-        .def("greet", &World::greet)
-        .def("set", &World::set)
+```
+class_<World>("World")
+    .def("greet", &World::greet)
+    .def("set", &World::set)
+```
 
 The library is clever enough to handle type conversions, exception translation and more. [See the docs][boost] for more examples.
 
