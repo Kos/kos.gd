@@ -19,7 +19,7 @@ But why can't we have both? Using two languages together introduces complexity, 
 
 There's a standard Python library called `ctypes` that is able to load a library (`dll` or `so` depending on your system), call functions from it and do the necessary conversions between C types and Python types. Easier than it sounds like!
 
-```
+```python
 >>> import ctypes
 >>> n = ctypes.cdll.msvcrt.printf('hello world! %d\n',123)
 hello world! 123
@@ -52,7 +52,7 @@ Boost::Python is a template library that provides a declarative syntax to wrap u
 
 Exposing a class simply looks like:
 
-```
+```cpp
 class_<World>("World")
     .def("greet", &World::greet)
     .def("set", &World::set)
@@ -94,14 +94,16 @@ Cython code gets compiled to equivalent C that can be compiled into Python exten
 
 Here's a snippet:
 
-	def integrate_f(double a, double b, int N):
-	    cdef int i
-	    cdef double s, dx
-	    s = 0
-	    dx = (b-a)/N
-	    for i in range(N):
-	        s += f(a+i*dx)
-	    return s * dx
+```cython
+def integrate_f(double a, double b, int N):
+	cdef int i
+	cdef double s, dx
+	s = 0
+	dx = (b-a)/N
+	for i in range(N):
+		s += f(a+i*dx)
+	return s * dx
+```
 
 Cython is able to generate Python functions, C functions or C functions with Python wrappers - all with similar syntax.
 

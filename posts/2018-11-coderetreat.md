@@ -58,7 +58,7 @@ We divided the implementation into two steps for easier testing:
 Step 1 can be naively implemented using a set of nested `for` loops and this is roughly what we initially went for:
 
 
-```
+```python
 def get_neighbour_counts(array):
     neighbour_indices = [(a, b) for a in (-1, 0, 1) for b in (-1, 0, 1) if a or b]
     counts = np.zeros(array.shape, dtype=int)
@@ -78,7 +78,7 @@ def get_neighbour_counts(array):
 Now for the second step, we observed it’s really a simple logic function (per cell) that we could write and test separately:
 
 
-```
+```python
 def get_next_state(state, neighbours):
     return (neighbours == 3) or (state and neighbours == 2)
 ```
@@ -86,17 +86,17 @@ def get_next_state(state, neighbours):
 So now we just had to apply that over the whole matrix. But since basic arithmetic in `numpy` is broadcast over the whole matrix, we could use the code directly! For example, here’s what happens if you compare an `array` to a number in `numpy`:
 
 
-```
+```python
 In [3]: a
 Out[3]: array([0, 1, 2, 3, 4])
 ```
 
-```
+```python
 In [4]: a > 1
 Out[4]: array([False, False,  True,  True,  True])
 ```
 
-```
+```python
 In [5]: a == 4
 Out[5]: array([False, False, False, False,  True])
 ```
@@ -104,7 +104,7 @@ Out[5]: array([False, False, False, False,  True])
 Given that, we could take the function that worked on scalars and just pass it a matrix instead, relying on duck typing. (We need to change logical operators to equivalent bitwise operators though - this is what `numpy` uses for element-wise logic. Also mind the different operator precedence!)
 
 
-```
+```python
 def get_next_state(state, neighbours):
     return (neighbours == 3) | (state & (neighbours == 2))
 ```
@@ -114,7 +114,7 @@ Written like this, it can be called either with both scalars and arrays.
 Combining the two, the main function looks like:
 
 
-```
+```python
 def life(array):
     return get_next_state(array, get_neighbour_counts(array))
 ```
@@ -122,7 +122,7 @@ def life(array):
 Having vectorised the second step, we wanted to revisit the first one too. Turns out the operation we wrote earlier was just a crude implementation of [matrix convolution](http://setosa.io/ev/image-kernels/) which is conveniently available in `scipy`. This means we can replace the nested-loop code with a two-liner:
 
 
-```
+```python
 def get_neighbour_counts(array):
     kernel = np.array([[1, 1, 1], [1, 0, 1], [1, 1, 1]], dtype=int)
     return convolve2d(array, kernel, mode="same", fillvalue=False)
@@ -133,7 +133,7 @@ def get_neighbour_counts(array):
 Bonus find was that we could build different variants of Life by tweaking the variant of convolution used. Here’s a version that assumes all cells outside of the are alive:
 
 
-```
+```python
 def get_neighbour_counts(array):
     kernel = np.array([[1, 1, 1], [1, 0, 1], [1, 1, 1]], dtype=int)
     return convolve2d(array, kernel, mode="same", fillvalue=True)
@@ -142,7 +142,7 @@ def get_neighbour_counts(array):
 And here’s one that assumes a wrapped (toroidal) surface:
 
 
-```
+```python
 def get_neighbour_counts(array):
     kernel = np.array([[1, 1, 1], [1, 0, 1], [1, 1, 1]], dtype=int)
     return convolve2d(array, kernel, mode='same', boundary='wrap')

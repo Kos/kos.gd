@@ -37,7 +37,7 @@ One instance of a Method is a complete definition together with its code; simila
 
 The normal syntax for accessing properties is:
 
-```
+```python
 obj = new Class();
 obj.foo;      # read
 obj.foo = 10; # write
@@ -45,7 +45,7 @@ obj.foo = 10; # write
 
 One could invent an alternative syntax which highlights that the property is an object too:
 
-```
+```python
 obj = new Class();
 foo_property = Class.foo;
 foo_property.get(obj);     # read
