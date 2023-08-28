@@ -199,7 +199,9 @@ TIMEZONE = "UTC"
 # Date format used to display post dates.
 # (str used by datetime.datetime.strftime)
 # DATE_FORMAT = '%Y-%m-%d %H:%M'
-DATE_FORMAT = '%Y-%m-%d'
+# DATE_FORMAT = '%Y-%m-%d'
+# update
+DATE_FORMAT = "yyyy-MM-dd"
 
 # Date format used to display post dates, if local dates are used.
 # (str used by moment.js)
@@ -402,7 +404,7 @@ CATEGORY_OUTPUT_FLAT_HIERARCHY = False
 # CATEGORY_PAGES_ARE_INDEXES = False
 
 # Set special titles for category pages. The default is "Posts about CATEGORY".
-CATEGORY_PAGES_TITLES = {
+CATEGORY_TITLES = {
    DEFAULT_LANG: {
        "dev": "Dev",
        "gaming": "Gaming"
@@ -412,7 +414,7 @@ CATEGORY_PAGES_TITLES = {
 # Set descriptions for category pages to make them more interesting. The
 # default is no description. The value is used in the meta description
 # and displayed underneath the category list or index page’s title.
-CATEGORY_PAGES_DESCRIPTIONS = {
+CATEGORY_DESCRIPTIONS = {
     DEFAULT_LANG: {
         "dev": "Articles about programming languages, gamedev, webdev and random stuff. I sneak in something less technical once in a while.",
         "gaming": "Random articles about mainstream, indie and retro gaming. (I might start reviewing titles too at some point)",
@@ -1086,7 +1088,7 @@ BODY_END = """
 
 # If you hate "Filenames with Capital Letters and Spaces.md", you should
 # set this to true.
-UNSLUGIFY_TITLES = True
+FILE_METADATA_UNSLUGIFY_TITLES = True
 
 # Additional metadata that is added to a post when creating a new_post
 # ADDITIONAL_METADATA = {}
