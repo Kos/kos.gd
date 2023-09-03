@@ -60,13 +60,13 @@ Did I mention UFOPaedia? There’s an in-game manual that offers some stats and 
 
 If you’d like to play the game, the DOS version is available on Steam (already packaged with Doxbox). You can play that, but I encourage you to also download [OpenXcom][openxcom] (the open source remake) and use it to run the files. OpenXcom includes _essential_ bugfixes and a lot of quality-of-life improvements: your screen is likely larger than a 1995’s typical CRT, so you might want to zoom the view out a little.
 
-[openxcom]
+[openxcom]: https://openxcom.org/
 
 Alternatively, here's a few videos to see:
 
 - Ahoy’s [delightful 2-hour documentary][ahoy] about the X-COM series
-- Let’s play series by XXX and YYY, if you’d like to sit back and watch the game. If you prefer condensed, there’s also speedruns available, but I think those are best watched after you’ve played the game yourself.
+- Let’s play series by [Yeti][lp.yeti] and [KonfluxGames][lp.konflux], if you’d like to sit back and watch the game. If you prefer condensed, there’s also speedruns available, but I think those are best watched after you’ve played the game yourself.
 
-[ahoy]: ...
-[lp1]: ...
-[lp2]: ...
+[ahoy]: https://www.youtube.com/watch?v=gBu77h2FSCM
+[lp.yeti]: https://www.youtube.com/playlist?list=PLhu1IU-H0hU3Hd6umZ2xDcIW1K-CjCqpT
+[lp.konflux]: https://www.youtube.com/playlist?list=PLCDF9E4C6C79E118A
