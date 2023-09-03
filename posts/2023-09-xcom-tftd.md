@@ -48,7 +48,7 @@ There’s two very specific aspects of TFTD that became a large part of my ident
 
 I definitely have a thing for synthesizers. I’m not competent as a musician, but I enjoy learning about them and fiddling with sound design on each opportunity. I never quite caught where this came from - maybe the few Jarre CDs my parents had around? There’s definitely truth in that, but one factor that must have contributed a lot would be this particular detuned PWM:
 
-[TODO music sample]
+<audio controls src="/images/tftd/prelanding.mp3">
 
 This drone has drilled itself deep into my consciousness and planted the seed that later grew into a passion for the raw electronic sound. (Imagine the thrill when I was once able to hear a reproduction of it on my own synth!) The original game also had a memorable soundtrack, but it didn’t resonate with me that much.
 
