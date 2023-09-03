@@ -63,8 +63,10 @@ Did I mention UFOPaedia? There’s an in-game manual that offers some stats and 
 
 ## See for yourself
 
-If you’d like to play the game, the DOS version is available on Steam (already packaged with Doxbox). You can play that, but I encourage you to also download [OpenXcom][openxcom] (the open source remake) and use it to run the files. OpenXcom includes _essential_ bugfixes and a lot of quality-of-life improvements: your screen is likely larger than a 1995’s typical CRT, so you might want to zoom the view out a little.
+If you’d like to play the game, the DOS version is available on [GOG][gog] or [Steam][steam] (already packaged with Dosbox). You can play that, but I encourage you to also download [OpenXcom][openxcom] (the open source remake) and use it together with your game files. OpenXcom includes _essential_ bugfixes and a lot of quality-of-life improvements: your screen is likely larger than a 1995’s typical CRT, so you might want to zoom the view out a little.
 
+[gog]: https://www.gog.com/en/game/xcom_terror_from_the_deep
+[steam]: https://store.steampowered.com/app/7650/XCOM_Terror_From_the_Deep/
 [openxcom]: https://openxcom.org/
 
 Alternatively, here's a few videos to see:
