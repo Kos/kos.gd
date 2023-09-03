@@ -7,7 +7,6 @@
 .. link:
 .. description:
 .. type: text
-.. status: draft
 -->
 
 I’m the last person to the party, attempting to review the UFO Defense’s sequel when it’s about to turn 30 years old. Given that the game still visits me every few years, I feel obligated to write something about it. Instead of reviewing, let me frame this post as a love letter of some sort.
