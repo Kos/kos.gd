@@ -1,50 +1,134 @@
-html {
-  font-size: inherit;
-  overflow-y: scroll; /* constant page width */
-}
+/* Typography */
 body {
-  background: url('../images/metroid-robin-wouters-3.jpg');
-  background-position: center;
-  background-attachment: fixed;
-  background-size: cover;
-  font-size: 100%;
+    font-family: Inter, Roboto, "Helvetica Neue", "Arial Nova", "Nimbus Sans",
+        Arial, sans-serif;
+    line-height: 1.5;
 }
-.navbar-inverse {
-  background-color: rgba(32, 32, 22, 0.5);
-  border: none;
-  color: #A6E7F1;
-}
-  .navbar-inverse .navbar-brand,
-  .navbar-inverse .navbar-nav > li > a {
-    color: inherit;
-  }
-
-.container-fluid {
-  max-width: 900px;
-}
-.body-content {
-  background: white;
-  padding: 1em 3em;
+body.helvetica {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
-footer {
-  font-size: 14px;
+h1 {
+    font-size: 1.875rem;
+    margin-top: 1.875rem;
 }
+
+h1,
+h2,
+h3 {
+    /* letter-spacing: -0.01em; */
+    line-height: 1.2;
+    font-weight: 600;
+    margin-bottom: 0;
+}
+h2 {
+    font-size: 1.5rem;
+    margin-top: 1.5rem;
+}
+h3 {
+    font-size: 1.25rem;
+    margin-top: 1.25rem;
+}
+
+p {
+    margin: 0.5em 0;
+}
+
+ol,
+ul {
+    margin: 0.5em 0;
+}
+ul,
+ol {
+    padding-inline-start: 1.5em;
+}
+ul > li,
+ol > li {
+    padding-left: 0.2em;
+}
+
+/* Colors */
 
 a {
   color: #56BBA8;
   transition: all 0.2s ease-out;
 }
-  a:hover {
-    color: #377861;
-    text-decoration: none;
-  }
-
-blockquote p, blockquote {
-  font-size: inherit;
+a:hover {
+  color: #377861;
 }
 
-div.code, pre.code {
-  margin-left: 0;
-  margin-right: 0;
+.metadata {
+  opacity: .5;
+}
+.metadata,
+.metadata a {
+  color: inherit;
+}
+
+.metadata > .byline.author.vcard {
+  display: none;
+}
+.metadata > .dateline::before {
+  content: unset;
+}
+
+/* Layout */
+
+.container {
+    max-width: 900px;
+}
+
+#content {
+    background: white;
+}
+
+/* BG image */
+
+#content::before {
+    content: "";
+    display: block;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 10em; /* A */
+
+    background: url("../images/metroid-robin-wouters-3.jpg");
+    background-position: center 58%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: -1;
+}
+
+#content {
+    margin-top: 7em; /* A */
+    padding-top: 1px;
+    padding-bottom: 1em;
+    margin-bottom: 1em;
+
+    transition: 0.3s ease-out margin;
+}
+
+/* Alt layout */
+
+@media screen and (min-width: 1600px) {
+    #content {
+      margin-top: 4em;
+    }
+    #content::before {
+        position: fixed;
+        height: 100vh;
+    }
+    .container {
+        max-width: 930px;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+}
+
+.navbar-dark {
+    background-color: rgba(32, 32, 22, 0.5) !important; /* override .bg-dark */
+    border: none;
+    color: #a6e7f1;
 }

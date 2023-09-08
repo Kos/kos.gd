@@ -814,8 +814,12 @@ CONTENT_FOOTER = (
     '<a href="mailto:{email}">{author}</a>. '
     "Powered by "
     '<a href="https://getnikola.com">Nikola</a>. '
+    'Background art: '
+    '    <a href="{bg_credit}" target="_blank" noopener noreferrer>Metroid</a>'
+    ' by <a href="{bg_author_credit}">Robin Wouters</a>.' 
     "{license}"
-)
+).replace('{bg_credit}', 'https://robinwouters.tumblr.com/post/108664354396/a-little-fanartexperiment-i-really-wish-nintendo') \
+.replace('{bg_author_credit}', 'https://www.artstation.com/robinwouters')
 
 # Things that will be passed to CONTENT_FOOTER.format().  This is done
 # for translatability, as dicts are not formattable.  Nikola will
@@ -1135,7 +1139,7 @@ FILE_METADATA_UNSLUGIFY_TITLES = True
 # past.  Useful especially if your post titles are in <h1> tags too, for
 # example.
 # (defaults to 1.)
-# DEMOTE_HEADERS = 1
+DEMOTE_HEADERS = 0
 
 # If you don’t like slugified file names ([a-z0-9] and a literal dash),
 # and would prefer to use all the characters your file system allows.
