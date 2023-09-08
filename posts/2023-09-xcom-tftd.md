@@ -13,7 +13,9 @@ I’m the last person to the party, attempting to review the UFO Defense’s seq
 
 Here's the catch: It’s difficult for me to share the experience of playing TFTD. I’m not sure if I’d say it “aged well” as a game: It’s very much playable for me nowadays (to say the least), but that’s only thanks to the time we spent together. All the unnecessary complexity, labyrinthine menus and seemingly-unfair gameplay make the game unapproachable today (and have been rightfully corrected in the 2012 reboot) So the least I can do is put in writing why the game feels so important to me.
 
+<center>
 ![Battlescape screenshot. Isometric view of sea bed. On the left, a gold silhuette of an alien craft. In the center, a lone lobsterman is facing a damaged X-COM underwater vehicle next to a landed Triton transport craft. X-COM agents are hiding in smoke particles next to the Triton. On the bottom there's the game's user interface that depicts the currently selected unit, labeled "Coelacanth/G.cannon". The yellow UI has two rows of gray buttons for various in-game actions.](/images/tftd/battlescape.png)
+</center>
 
 <!--more-->
 
@@ -25,7 +27,9 @@ X-COM is actually one of these games that taught me that you don’t have to alw
 
 This aspect of “there is no winning or losing, just different kinds of progress” feels unique to the game and I don’t remember seeing it in other titles until, say, Into the Breach which very successfully took this theme into its own direction.
 
+<center>
 ![A large table titled "Equipment for LEVIATHAN-1". Headers: SPACE AVAILABLE: 3, SPACE USED: 23, AQUANAUTS: 15. Table body: list of items like "Chemical-flare", "Sonic cannon", "Disruptor pulse launcher" or "Heavy Thermic Lance". Each row includes the count of items available and items assigned for the craft.](/images/tftd/equipment.png)
+</center>
 
 But the sequence of tactical battles is just one aspect of X-COM. The Geoscape experience is a whole second game on its own. This is where you decide which battles to pick (most are optional). This is also where you set yourself up for success for each mission.
 
@@ -33,7 +37,9 @@ Geoscape mostly consists of menu-diving. If you try to re-imagine Microsoft Exce
 
 The board game aspect is made even stronger when you consider that the seemingly chaotic Alien activity is actually them playing the game against you. Aliens are always doing their own thing: scouting, managing resources and building colonies. All these activities award them victory points (unless you interrupt them). At first none of that is clear, but you get to learn that after extending your radar coverage of Earth and learning how to intercept alien communications.
 
+<center>
 ![In-game world map zoomed in around the Midterranean sea. Some in-game factions like "Scandinavia", "Euro-syndicate" and "Egyptian Cartel" are marked. Visible are small symbols and flight trajectories of  X-COM and alien craft.](/images/tftd/geoscape-closeup.png)
+</center>
 
 The unique aspect of this is the amount of freedom granted to the player. It’s like participating in a simulation: You can engage, or you can choose to sit in your base, do nothing, and just watch events unfold. It’s up to you to decide how much you want to interfere with alien activity and on what terms, all the way from strategic budgeting (prioritise base expansion? research? military?) down to fine decisions about equipment for each X-COM agent. (Example: The game doesn’t come with “character classes”, but I invented my own at some point, because it made sense to me as a playstyle and the game gave me all the tools I needed).
 
@@ -47,7 +53,9 @@ There’s two very specific aspects of TFTD that became a large part of my ident
 
 I definitely have a thing for synthesizers. I’m not competent as a musician, but I enjoy learning about them and fiddling with sound design on each opportunity. I never quite caught where this came from - maybe the few Jarre CDs my parents had around? There’s definitely truth in that, but one factor that must have contributed a lot would be this particular detuned PWM:
 
+<center>
 <audio controls src="/images/tftd/prelanding.mp3">
+</center>
 
 This drone has drilled itself deep into my consciousness and planted the seed that later grew into a passion for the raw electronic sound. (Imagine the thrill when I was once able to hear a reproduction of it on my own synth!) The original game also had a memorable soundtrack, but it didn’t resonate with me that much.
 
@@ -55,7 +63,9 @@ This drone has drilled itself deep into my consciousness and planted the seed th
 
 X-COM: Ufo Defense was already a very atmospheric game. It offered a turn-based tactical combat experience where you’d spend most of the time trying to pinpoint the number and location of the hostiles. Thanks to the fog of war, you’d often identify alien presence based on shots in your direction from somewhere in the dark. And since there’s no way for sure to know how many hostiles are left, every press of “End turn” could surprise you with a plot twist. This is the aspect I missed the most in the 2012 reboot, which would instead “formally announce” aliens whenever they entered the board, instead of letting them lurk in the shadows and keep you second-guessing.
 
+<center>
 ![UFOPaedia page describing the Lobster Man. Picture of a golden lobster creature with gleaming green eyes, standing upright on hind legs. Description: This is a staggering creature, taller than a man and boasting six limbs, it resembles nothing more than an aquatic Demon. The similarities between this creature and the Earth lobster have earned it the nickname of Lobsterman with the X-Com troops. This is a behemoth of the deep. A carefully designed fighting creature of incredible strength and practically invulnerable to missile fire. Its pincers alone can crush steel.](/images/tftd/lobsterman.png)
+</center>
 
 Terror from the Deep took all that, and improved it with fantastic art. Your usual fields, barns and small towns would give way to shady ports, sunken ships and mysterious underwater ruins. Instead of a selection of default scifi aliens and colorful blobs, you’d encounter rebranded sea creatures (like lobster men or giant nautiluses) or Lovecraft-inspired abominations - the latter so numerous that at some point you’d think you’re looking at a Lovecraft fanfic. There’s an important location called T’leth (I take only because R’lyeh was already taken) and one of the UFOPaedia monster descriptions just gives up the charade and straight up uses “Lovecraftian” as an adjective.
 
