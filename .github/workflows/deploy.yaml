@@ -1,6 +1,9 @@
 name: Deployment
 run-name: Deploy 🚀
-on: [push]
+on:
+  push:
+    branches:
+      - master
 jobs:
   Deploy:
     runs-on: ubuntu-latest
