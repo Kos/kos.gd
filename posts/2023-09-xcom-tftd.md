@@ -3,7 +3,7 @@
 .. slug: a-look-back-at-x-com-tftd
 .. date: 2023-09-03 12:00:00 UTC
 .. tags:
-.. category:
+.. category: gaming
 .. link:
 .. description:
 .. type: text
