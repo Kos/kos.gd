@@ -48,7 +48,7 @@ There’s more than one way to go around this, but I decided to model the state 
 
 (Another way to put it is that the set of possible states is the set of all possible length-N multisets of the 8 sphere types.)
 
-For a given set of K spheres from N types, there are \[N+K-1 \choose K\] possible states, which gives:
+For a given set of K spheres from N types, there are \(N+K-1 \choose K\) possible states, which gives:
 
 - 792 states for 5 spheres,
 - 1716 states for 6 spheres.
