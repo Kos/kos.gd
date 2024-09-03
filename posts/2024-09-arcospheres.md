@@ -75,7 +75,7 @@ My last approach used graph search but only as a part of the whole solution. Fir
 - *“ingredient states”* which include the whole set of ingredients for the production recipe,
 - *“product states”* which can appear as a result of the production recipe.
 
-![ingredient and product states](/images/classify.svg)
+![ingredient and product states](/images/arco/classify.svg)
 
 Now for each product state, I identified the set of all possible ingredient states which are reachable using *some series of transformations*. I used Dijkstra for this step. A regular BFS graph search would be sufficient, but Dijkstra was more convenient (and not just because I had it implemented from previous steps).
 
@@ -83,7 +83,7 @@ Dijkstra’s algorithm, when ran from a source node, finds the shortest path fro
 
 My output for this step is a table that tells me different ways how a product state can "loop back" to an ingredient state, so that production can continue.
 
-![product states with their ingredient states](/images/classify2.svg)
+![product states with their ingredient states](/images/arco/classify2.svg)
 
 In the next step, I started marking some ingredient states as “bad”. Note how every ingredient state randomly leads to one of two product states. A state is considered “bad” if at least one of its two product states is a “blind alley” that doesn’t lead to any non-bad ingredient state. (That’s a lot of negations!)
 
@@ -119,7 +119,11 @@ The way to do this, incidentally, also looks like a graph search:
         - from Djikstra results, add instructions how to navigate from that state back to another ingredient state
         - enqueue that ingredient state
 
-The result in my case looks like so (when represented as a table), or like so when rendered as a graph. I noticed that I get a valid result no matter how I pick an ingredient state from available choices of each product state, but if I pick the lexicographically smaller ingredient state, then the resulting handbook tends to be smaller (less states / rows). I’m sure there’s a way to be smarter about this and e.g. find a handbook that optimizes for producing as few steps as possible on average, but I didn’t go there.
+The result in my case looks like so (when represented as a table):
+
+![table of states: if state is A, then do B, so that you get C](/images/arco/handbook.png)
+
+I noticed that I get a valid result no matter how I pick an ingredient state from available choices of each product state, but if I pick the lexicographically smaller ingredient state, then the resulting handbook tends to be smaller (less states / rows). I’m sure there’s a way to be smarter about this and e.g. find a handbook that optimizes for producing as few steps as possible on average, but I didn’t go there.
 
 With the handbook in hand, just one question remains: How do I build this in Factorio? After all, this is a game of automation, so I’m supposed to have a machine that follows the handbook for me, right? 
 
