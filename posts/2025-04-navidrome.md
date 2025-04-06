@@ -41,7 +41,7 @@ I don't expect this solution will 100% replace Spotify for me, but it already br
 [youamp]: https://f-droid.org/en/packages/ru.stersh.youamp/
 [pika]: https://pikapods.com
 [nd]: https://github.com/continuedev/continue/pull/1062
-[iconoclasts-ost]: ...
+[iconoclasts-ost]: https://konjak.bandcamp.com/album/iconoclasts-soundtrack-birdsong
 [a_rival]: https://rivalrivalrival.bandcamp.com/album/crypt-of-the-necrodancer-the-melody-mixes
 [nectoulin]: https://www.patreon.com/posts/mp3-unreal-album-82841349
 [piepsi]: https://bandcamp.com/piepsi91
