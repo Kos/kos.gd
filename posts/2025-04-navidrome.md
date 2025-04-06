@@ -11,9 +11,9 @@
 
 My Spotify subscription is years old, I think it might easily be my oldest online service. I've been generally happy with it, save for the regular, unexpected changes to user interface. If Spotify was a person, it would be a roommate who studies interior design and randomly re-arranges your furniture _("this way is better, you'll see!")_
 
-However, things have been getting worse: I hear more and more often about Spotify offering bad deals to niche, emerging artists. Possibly for this reason, my favourite songs tend to disappear. When the [Iconoclasts soundtrack][iconoclasts-ost] disappeared from my  favourite Indie OST playlist, I decided it's time to take matters into my own hands...
+However, things have been getting worse: I hear more and more often about Spotify offering [bad deals][spotify] to niche, emerging artists. Possibly for this reason, my favourite songs tend to disappear. When the [Iconoclasts soundtrack][iconoclasts-ost] vanished from Spotify, leaving a big hole in my favourite Indie OST playlist, I decided it's time to take matters into my own hands...
 
-Turns out it's extremely simple to host your own music streaming service!
+Turns out it's extremely simple to host your own music streaming service! Follow along to find out what setup I ended up with.
 
 <!--more-->
 
@@ -43,3 +43,4 @@ I don't expect this solution will 100% replace Spotify for me, but it already br
 [a_rival]: https://rivalrivalrival.bandcamp.com/album/crypt-of-the-necrodancer-the-melody-mixes
 [nectoulin]: https://www.patreon.com/posts/mp3-unreal-album-82841349
 [piepsi]: https://bandcamp.com/piepsi91
+[spotify]: https://www.musicbusinessworldwide.com/confirmed-next-year-tracks-on-spotify-1000-plays/
