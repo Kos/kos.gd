@@ -9,8 +9,6 @@
 .. type: text
 -->
 
-## I hosted my own music streaming service
-
 My Spotify subscription is years old, I think it might easily be my oldest online service. I've been generally happy with it, save for the regular, unexpected changes to user interface. If Spotify was a person, it would be a roommate who studies interior design and randomly re-arranges your furniture _("this way is better, you'll see!")_
 
 However, things have been getting worse: I hear more and more often about Spotify offering bad deals to niche, emerging artists. Possibly for this reason, my favourite songs tend to disappear. When the [Iconoclasts soundtrack][iconoclasts-ost] disappeared from my  favourite Indie OST playlist, I decided it's time to take matters into my own hands...
