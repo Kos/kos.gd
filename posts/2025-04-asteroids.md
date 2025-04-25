@@ -24,11 +24,15 @@ If you'd like to play it today, you'll need some early Windows version. I used t
 
 ## "Gravitar" (1990)
 
-Just like in case of Drift, I found Gravitar in the freeware section of a cover CD and played it a good amount. It took me many years to realize that Gravitar is actually an Atari classic, and that the version I played looks like a freeware remake, not affiliated with Atari.
+Just like in case of Drift, I found Gravitar in the freeware section of a cover CD and played it a good amount. It took me many years to realize that Gravitar is actually an Atari classic, and that the version I played looks like a freeware remake, not affiliated with Atari. It plays smoothly, if you ignore the awkward controls.
 
-The version I played was really smooth, if you the awkward controls. Instead of asteroids we're attacking planetary bases. There's multiple "zoom levels" to the game: the "star map" hub-world where we pick a level, and the actual surface. The DOS edition also zooms in to a 
+The whole theme of Gravitar is that instead of asteroids we're now attacking planetary bases! The planets have gravity, so controlling the ship is a big challenge. Some levels are larger than the screen, and there's a scrolling viewport! Additionally, there's a "hub" level where you pick a specific base to attack, so you can choose your own difficulty to some degree.
 
-As of writing this I still haven't played the original Gravitar, but I'm on the lookout whenever visiting an arcade! Maybe I should say hi to the folks behind the [Warsaw Pinball museum][pinballstation], who knows, perhaps I'll be lucky...
+Playing Gravitar convinced me further that the "asteroidslike" genre is pretty open-ended and can easily adapt a more extensive game design with multiple unique locations.
+
+As of writing this I still haven't played the original arcade version of Gravitar, but I'm on the lookout whenever visiting an arcade! Maybe I should say hi to the folks behind the [Warsaw Pinball museum][pinballstation], who knows, perhaps I'll be lucky... Meanwhile I should probably try the [remaster][gravitar-rem].
+
+If you want to try the DOS version of Gravitar, it's available on [dos.zone][grav].
 
 ## Comet Busters! (1994)
 
@@ -38,8 +42,11 @@ Not to be confused with the other Minefield
 
 ## Notable mentions
 
+Stellar Frontier
 Hyperoid
 Swarm
 
 [moby]: https://www.mobygames.com/group/6421/asteroids-variants/sort:title/page:0/
 [pinballstation]: https://pinballstation.pl/
+[gravitar-rem]: 
+[grav]: https://dos.zone/gravitar-1993/
