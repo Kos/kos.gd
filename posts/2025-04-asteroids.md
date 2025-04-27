@@ -30,15 +30,23 @@ The whole theme of Gravitar is that instead of asteroids we're now attacking pla
 
 Playing Gravitar convinced me further that the "asteroidslike" genre is pretty open-ended and can easily adapt a more extensive game design with multiple unique locations.
 
-As of writing this I still haven't played the original arcade version of Gravitar, but I'm on the lookout whenever visiting an arcade! Maybe I should say hi to the folks behind the [Warsaw Pinball museum][pinballstation], who knows, perhaps I'll be lucky... Meanwhile I should probably try the [remaster][gravitar-rem].
+As of writing this I still haven't played the original arcade version of Gravitar, but I'm on the lookout whenever visiting an arcade! Maybe I should say hi to the folks behind the [Warsaw Pinball museum][pinballstation], who knows, perhaps I'll be lucky... I tried the recent [remaster][gravitar-rem] but it didn't vibe with me, I'd recommend you go for [Gravity Ace][ace] instead.
 
 If you want to try the DOS version of Gravitar, it's available on [dos.zone][grav].
 
 ## Comet Busters! (1994)
 
+Unlike the previous two titles, CB! is a shareware game. It clearly shows when you look at how polished it is: the physics is *just right*, the level progression feels well-balanced and the sound effects fit perfectly. The game didn't really bend the genre in any new way, but it had a perfectly workable multiplayer (up to 4 players, co-op or PVP depending on your settings).
+
 ## Minefield
 
-Not to be confused with the other Minefield
+Not to be confused with the other Minefield, this game is the launch title of the [Vectrex][vectrex] console and I got to play it a few times on various gaming events. It's a pretty solid and playable game, but the main reason I found it impactful is how amazing it feels when played on the original console (if you get used to the awkward controller, that is).
+
+See, the Vectrex uses a cathode ray tube display (in portrait). Unlike your usual CRT screen, however, the display doesn't do pixels or scanlines: it draws all the shapes *exactly* on the screen. It has effectively infinite "resolution" because all the shapes are geometrically accurate. Together with the game's smooth animation, it looks uncanny and deserves to be seen live.
+
+I encourage you to play Minefield in the [Warsaw Museum of Computers and Games][wmkig] next time you're around.
+
+
 
 ## Notable mentions
 
@@ -48,5 +56,8 @@ Swarm
 
 [moby]: https://www.mobygames.com/group/6421/asteroids-variants/sort:title/page:0/
 [pinballstation]: https://pinballstation.pl/
-[gravitar-rem]: 
+[gravitar-rem]: https://store.steampowered.com/app/1905430/Gravitar_Recharged/
 [grav]: https://dos.zone/gravitar-1993/
+[ace]: https://jotson.itch.io/gravity
+[vectrex]: 
+[wmkig]: https://wmkig.pl
