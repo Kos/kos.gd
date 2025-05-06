@@ -18,6 +18,9 @@ I don't think it's a coincidence; I'd easily contribute that to the numerous Ast
 
 ## Drift (1994)
 
+![Drift screenshot](/images/aster/drift4.png)
+![Drift screenshot](/images/aster/drift3.png)
+
 I only played this game a few dozen times, but I'm listing it first here it somehow become one of my core memories: I had very vivid recollection of playing it, all because its unique aspect of random level generation.
 
 See, every time you advance to a new level in Drift, there's some random chance of this level being some kind of specal level, like "aliens only" or "wormholes only" or a few more... I need to compile a whole list! Much Later in my life I played a lot of Angband, the classic roguelike, and Angband had the same theme: you could randomly stumble upon a cavernous level, or a level with a vault or a pit full of orcs... So my memory happily combined the two concepts and reframed Drift as a "Roguelike version of Asteroids".
@@ -45,6 +48,9 @@ I tried the recent [remaster][gravitar-rem] but it didn't vibe with me much. OTO
 If you want to try the DOS version of Gravitar that I played, it's available on [dos.zone][gravzone]. For the arcade version, I suppose you could look for a retro gaming venue... :-)
 
 ## Comet Busters! (1994)
+
+![Comet Busters screenshot](/images/aster/comet3.png))
+![Comet Busters screenshot](/images/aster/comet1.png))
 
 Unlike the previous two titles, _Comet Busters!_ (with exclamation mark) is a shareware game. Just like many shareware titles, it has a lot of polish: the physics feels _just right_, the level progression feels well-balanced and the sound effects fit perfectly.
 
