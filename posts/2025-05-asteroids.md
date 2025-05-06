@@ -7,7 +7,7 @@
 .. link:
 .. description:
 .. type: text
-.. status: private
+.. status: draft
 -->
 
 You might doubt if there's really something going on between me and Asteroids remakes, but if you look closer, you'll probably be suspicious the moment you look at the games I tried to make over the years: a good chunk of them might have been attempts at an Asteroids-themed game, and [the one I completed][rocks] was somewhat well-received too.
