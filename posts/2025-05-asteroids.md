@@ -1,9 +1,9 @@
 <!--
-.. title: Template
+.. title: My Asteroids Adventures
 .. slug: asteroids
 .. date: 2001-01-01 12:00:00 UTC
 .. tags:
-.. category:
+.. category: gaming
 .. link:
 .. description:
 .. type: text
