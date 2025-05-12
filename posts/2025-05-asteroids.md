@@ -1,8 +1,8 @@
 <!--
 .. title: My Asteroids Adventures
 .. slug: asteroids
-.. date: 2001-01-01 12:00:00 UTC
-.. tags:
+.. date: 2025-05-12
+.. tags: asteroids, retro, games
 .. category: gaming
 .. link:
 .. description:
