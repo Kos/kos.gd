@@ -19,11 +19,10 @@ I don't think it's a coincidence; I'd easily contribute that to the numerous Ast
 ## Drift (1994)
 
 ![Drift screenshot](/images/aster/drift4.png)
-![Drift screenshot](/images/aster/drift3.png)
 
 I only played this game a few dozen times, but I'm listing it first here it somehow become one of my core memories: I had very vivid recollection of playing it, all because its unique aspect of random level generation.
 
-See, every time you advance to a new level in Drift, there's some random chance of this level being some kind of specal level, like "aliens only" or "wormholes only" or a few more... I need to compile a whole list! Much Later in my life I played a lot of Angband, the classic roguelike, and Angband had the same theme: you could randomly stumble upon a cavernous level, or a level with a vault or a pit full of orcs... So my memory happily combined the two concepts and reframed Drift as a "Roguelike version of Asteroids".
+See, every time you advance to a new level in Drift, there's some random chance of this level being some kind of specal level, like "asteroid factory" or "black hole zone" or a few more... I need to compile a whole list! Much Later in my life I played a lot of Angband, the classic roguelike, and Angband had the same theme: you could randomly stumble upon a cavernous level, or a level with a vault or a pit full of orcs... So my memory happily combined the two concepts and reframed Drift as a "Roguelike version of Asteroids".
 
 In retrospect that has largely been my imagination adding some colour to the game, but the truth is I remembered the game much later and spent at least 10 years (on and off) trying to find it again on the internet. I only remembered that it had vector graphics, a short name, and early-Windows user interface. Not much to work with...
 
@@ -35,6 +34,8 @@ If you'd like to play it today, you'll need an early Windows version that runs 1
 
 ## "Gravitar" (1990)
 
+![Gravitar screenshot](/images/aster/grav.png)
+
 Just like in case of Drift, I found Gravitar in the freeware section of a cover CD and played it a good amount. It took me many years to realize that Gravitar is actually an Atari classic, and that [the version I played][grav] is a DOS remake, not at all affiliated with Atari.
 
 The whole theme of Gravitar is that instead of asteroids we're now attacking planetary bases! The planets have gravity, so controlling the ship is a bigger challenge. Some levels are larger than the screen, and there's a scrolling viewport! Additionally, there's a "hub" level where you choose the next location to go. This lets you choose your own difficulty to some degree.
@@ -45,12 +46,11 @@ As of writing this I still haven't played the original arcade version of Gravita
 
 I tried the recent [remaster][gravitar-rem] but it didn't vibe with me much. OTOH I spent quite long with [Gravity Ace][ace] - not a remake but conceptually close; I recomend you give it a try! It's extremely polished and you can feel the author's love for the genre.
 
-If you want to try the DOS version of Gravitar that I played, it's available on [dos.zone][gravzone]. For the arcade version, I suppose you could look for a retro gaming venue... :-)
+If you want to try the DOS version of Gravitar that I played, it's available on [archive.org][grav-play]. For the arcade version, I suppose you could look for a retro gaming venue... :-)
 
 ## Comet Busters! (1994)
 
-![Comet Busters screenshot](/images/aster/comet3.png))
-![Comet Busters screenshot](/images/aster/comet1.png))
+![Comet Busters screenshot](/images/aster/comet3.png)
 
 Unlike the previous two titles, _Comet Busters!_ (with exclamation mark) is a shareware game. Just like many shareware titles, it has a lot of polish: the physics feels _just right_, the level progression feels well-balanced and the sound effects fit perfectly.
 
@@ -58,7 +58,9 @@ The game didn't really bend the genre in any new way, but it had a perfectly wor
 
 ## Mine Storm (1982)
 
-Not to be confused with [Minefield][mine], this game is the launch title of the [Vectrex][vectrex] home console and I got to play it a few times on various gaming events after moving to Warsaw.
+![Still frame of Vectrex console running Mine Storm](/images/aster/minestorm.png)
+
+Not to be confused with [Minefield][mine], this game is the launch title of the [Vectrex][vectrex] home console. I got to play it a few times on various gaming events after moving to Warsaw.
 
 It's a pretty solid and playable rendition of Asteroids, but the main reason I found it impactful is how amazing it looks and feels when played on the original console (if you get used to the awkward controller, that is).
 
@@ -76,7 +78,7 @@ I encourage you to play Minefield in the [Warsaw Museum of Computers and Games][
 [moby]: https://www.mobygames.com/group/6421/asteroids-variants/sort:title/page:0/
 [pinballstation]: https://pinballstation.pl/
 [gravitar-rem]: https://store.steampowered.com/app/1905430/Gravitar_Recharged/
-[gravzone]: https://dos.zone/gravitar-1993/
+[grav-play]: https://archive.org/details/msdos_Gravitar_1993
 [grav]: https://www.mobygames.com/game/73284/gravitar/
 [ace]: https://jotson.itch.io/gravity
 [mine]: https://pwmarcz.pl/minefield/
@@ -86,3 +88,5 @@ I encourage you to play Minefield in the [Warsaw Museum of Computers and Games][
 [cd]: https://archive.org/details/bestsellersspacegameclassics2cd
 [86box]: https://86box.net/
 [mine-yt]: https://www.youtube.com/watch?v=5f_8q_ENm88
+
+``
