@@ -9,28 +9,27 @@ jobs:
     runs-on: ubuntu-latest
     environment: MD
     steps:
-      - run: echo "🎉 The job was automatically triggered by a ${{ github.event_name }} event."
-      - run: echo "🐧 This job is now running on a ${{ runner.os }} server hosted by GitHub!"
       - name: Check out repository code
-        uses: actions/checkout@v3
-      - uses: actions/setup-python@v4
+        uses: actions/checkout@v4
+      - name: Install uv
+        uses: astral-sh/setup-uv@v5
+      - uses: actions/setup-python@v5
         with:
-          python-version: '3.11'
-          cache: 'pip'
+          python-version: "3.11"
       - name: Install deps
-        run: pip install -r requirements.txt
+        run: uv pip install -r requirements.txt
       - name: Build the site
         run: nikola build
       - name: Add SSH key
         env:
           SSH_AUTH_SOCK: /tmp/ssh_agent.sock
         run: |
-            mkdir -p /home/runner/.ssh
-            echo "${{ secrets.KNOWN_HOSTS }}" >> /home/runner/.ssh/known_hosts
-            echo "${{ secrets.SSH_KEY }}" > /home/runner/.ssh/github_actions
-            chmod 600 /home/runner/.ssh/github_actions
-            ssh-agent -a $SSH_AUTH_SOCK > /dev/null
-            ssh-add /home/runner/.ssh/github_actions
+          mkdir -p /home/runner/.ssh
+          echo "${{ secrets.KNOWN_HOSTS }}" >> /home/runner/.ssh/known_hosts
+          echo "${{ secrets.SSH_KEY }}" > /home/runner/.ssh/github_actions
+          chmod 600 /home/runner/.ssh/github_actions
+          ssh-agent -a $SSH_AUTH_SOCK > /dev/null
+          ssh-add /home/runner/.ssh/github_actions
       - name: Upload the build
         env:
           SSH_AUTH_SOCK: /tmp/ssh_agent.sock
