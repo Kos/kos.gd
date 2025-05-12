@@ -7,7 +7,6 @@
 .. link:
 .. description:
 .. type: text
-.. status: draft
 -->
 
 You might doubt if there's really something going on between me and Asteroids remakes, but if you look closer, you'll probably be suspicious the moment you look at the games I tried to make over the years: a good chunk of them might have been attempts at an Asteroids-themed game, and [the one I completed][rocks] was somewhat well-received too.
@@ -44,7 +43,7 @@ Playing Gravitar convinced me further that the "asteroidslike" genre is pretty o
 
 As of writing this I still haven't played the original arcade version of Gravitar, but I'm on the lookout whenever visiting an arcade! Maybe I should say hi to the folks behind the [Warsaw Pinball museum][pinballstation], who knows, perhaps I'll be lucky...
 
-I tried the recent [remaster][gravitar-rem] but it didn't vibe with me much. OTOH I spent quite long with [Gravity Ace][ace] - not a remake but conceptually close; I recomend you give it a try! It's extremely polished and you can feel the author's love for the genre.
+I tried the recent [remaster][gravitar-rem] but it didn't vibe with me much. OTOH I had a blast with with [Gravity Ace][ace] - not a remake but conceptually close; I recomend you give it a try! It's extremely polished and you can feel the author's love for the genre.
 
 If you want to try the DOS version of Gravitar that I played, it's available on [archive.org][grav-play]. For the arcade version, I suppose you could look for a retro gaming venue... :-)
 
@@ -88,5 +87,3 @@ I encourage you to play Minefield in the [Warsaw Museum of Computers and Games][
 [cd]: https://archive.org/details/bestsellersspacegameclassics2cd
 [86box]: https://86box.net/
 [mine-yt]: https://www.youtube.com/watch?v=5f_8q_ENm88
-
-``
