@@ -6,3 +6,4 @@ cache/
 *.md.bak
 .vscode
 deploy.sh
+.venv
