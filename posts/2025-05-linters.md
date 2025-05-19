@@ -49,14 +49,14 @@ Let's see what various linters have to say about this code.
 
 First, `flake8 7.2.0` which is what my project uses:
 
-```
+```console
 ~/linting ❯ uvx flake8 sample.py
 ~/linting ❯ 
 ```
 
 Nothing by default, but there's a plug-in:
 
-```
+```console
 ~/linting ❯ uvx --with flake8-bugbear flake8 sample.py
 sample.py:1:31: B006 Do not use mutable data structures for argument defaults.  They are created during function definition time. All calls to the function reuse this one instance of that data structure, persisting changes between them.
 ```
@@ -65,14 +65,14 @@ Better! It flagged `buggy_fn`, but it still didn't flag `BuggyClass`.
 
 Next, let's try `pyright 1.1.400`. Pyright is a type checker but also does some misc diagnostics.
 
-```
+```console
 ~/linting ❯ uvx pyright sample.py
 0 errors, 0 warnings, 0 informations 
 ```
 
 What if we tried more power?
 
-```
+```console
 ~/linting ❯ echo '{"typeCheckingMode": "strict", "strict": ["*"]}' > pyrightconfig.json
 ~/linting ❯ uvx pyright sample.py
 0 errors, 0 warnings, 0 informations 
@@ -80,14 +80,14 @@ What if we tried more power?
 
 Not much. How about `mypy 1.15.0` then? Mypy is more strictly focused on types, but let's try:
 
-```
+```console
 ~/linting ❯ uvx mypy --strict sample.py
 Success: no issues found in 1 source file
 ```
 
 How about the classic `pylint 3.3.7`?
 
-```
+```console
 ~/linting ❯ uvx pylint sample.py
 ************* Module sample
 sample.py:1:0: C0114: Missing module docstring (missing-module-docstring)
@@ -105,14 +105,14 @@ I never used Pylint on a production project but it actually found one of two iss
 
 Finally, let's look at `ruff 0.11.10`, our promising Rust-powered contestant.
 
-```
+```console
 ~/linting ❯ uvx ruff check sample.py
 All checks passed!
 ```
 
 Nothing on default settings, but let's enable some optional rules:
 
-```
+```console
 ~/linting ❯ uvx ruff check --extend-select B,RUF sample.py
 sample.py:1:31: B006 Do not use mutable data structures for argument defaults
   |
