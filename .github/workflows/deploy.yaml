@@ -18,6 +18,8 @@ jobs:
           python-version-file: ".python-version"
       - name: Install deps
         run: uv pip sync requirements.txt
+        env:
+          UV_SYSTEM_PYTHON: 1
       - name: Build the site
         run: nikola build
       - name: Add SSH key
