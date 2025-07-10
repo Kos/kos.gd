@@ -1,6 +1,6 @@
 <!--
 .. title: Jujutsu
-.. slug: template
+.. slug: jujutsu
 .. date: 2001-01-01 12:00:00 UTC
 .. tags:
 .. category:
