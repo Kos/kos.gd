@@ -35,5 +35,5 @@ jobs:
       - name: Upload the build
         env:
           SSH_AUTH_SOCK: /tmp/ssh_agent.sock
-        run: rsync -rvz output/ kos@s67.mydevil.net:domains/kos.gd/public_html/
+        run: rsync -rvz output/ kos@s78.mydevil.net:domains/kos.gd/public_html/
       - run: echo "🍏 This job's status is ${{ job.status }}."
