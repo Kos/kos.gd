@@ -103,7 +103,7 @@ int main(void)
 First I compiled it via `avr-gcc` and obtained an `.elf` file:
 
 ```shell
-avr-gcc -m mcu=atmega32u4 -D F_CPU=8000000UL -Os -o main.elf main.c
+avr-gcc -mmcu=atmega32u4 -D F_CPU=8000000UL -Os -o main.elf main.c
 ```
 
 The build artifact is an `.elf` file (standard binary format for executables). The second step is to create the `hex` file:
