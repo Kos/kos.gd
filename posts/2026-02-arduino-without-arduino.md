@@ -7,7 +7,6 @@
 .. link:
 .. description:
 .. type: text
-.. status: private
 -->
 
 I always had difficulty understanding what Arduino is in essence. My current understanding is that Arduino stands for a whole set of related tools designed to be used together, in order to make it easier to get into microcontroller programming. The individual bits and pieces involved are:
