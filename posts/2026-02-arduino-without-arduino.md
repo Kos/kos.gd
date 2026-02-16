@@ -161,6 +161,7 @@ I like the 1200bps touch trick and I'll look into replicating it manually, but p
 
 That's it for now, I'll continue tinkering and report back if I have more findings to share!
 
+[Please submit comments and corrections on Mastodon.](https://stolat.town/@kos/116081740252461515)
 
 
 [Caterina]: https://github.com/adafruit/Caterina-Bootloader
