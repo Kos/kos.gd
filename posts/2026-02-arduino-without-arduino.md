@@ -154,11 +154,7 @@ In order to flash a new program, the bootloader must be listening on the serial 
 
 My Pro Micro board behaved like this too (initially), but the first time I flashed the board manually through avrdude, I noticed **it no longer shows up in Device Manager!** I thought I broke it... But this is understandable: The code for opening the serial port is added to the program by the Arduino IDE, so if I'm not using the IDE, my board doesn't attempt to open a serial port at all.
 
-Luckily I can just restart the board myself!
-
-The Pro Micro doesn't have a reset button, so I made my own:
-
-(picture)
+Luckily I can just restart the board myself! The Pro Micro doesn't have a reset button, so I wired one up on a breadboard.
 
 There's another Pro Micro-specific caveat here: Normally when powering up the board, the Sparkfun-themed bootloader goes straight to the program; I have to double-click the reset button to reboot the board into a mode where the bootloader waits for 8 seconds. 
 
@@ -168,9 +164,8 @@ That's it for now, I'll continue tinkering and report back if I have more findin
 
 
 
-
 [Caterina]: https://github.com/adafruit/Caterina-Bootloader
 [ws2812B-arduino]: https://github.com/PinkNoize/ws2812B-arduino
-[datasheet]: ...
+[datasheet]: https://ww1.microchip.com/downloads/en/devicedoc/atmel-7766-8-bit-avr-atmega16u4-32u4_datasheet.pdf
 [avr109]: https://ww1.microchip.com/downloads/en/AppNotes/doc1644.pdf
 [ihex]: https://en.wikipedia.org/wiki/Intel_HEX
